@@ -1,0 +1,10 @@
+{
+  "name": "JOINT_SHARED",
+  "node_mode": "hybrid",
+  "lambda_pair": 0.0,
+  "lambda_int": 0.0,
+  "pair_intercept": false,
+  "response": "full",
+  "alpha": 10.0,
+  "id": "JOINT_SHARED_A10"
+}

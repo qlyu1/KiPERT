@@ -1,0 +1,12 @@
+{
+  "bootstrap": 2000,
+  "seed": 2026111702,
+  "unit": "Paired target clusters; repeats retained; fixed datasets equally weighted",
+  "interval": "Pointwise percentile conditional on fitted models, fixed dataset panel and sampled model compositions; no biological-replicate or retraining uncertainty",
+  "quantity": "Arithmetic mean model scores per target; variability across compositions reported as IQR and range, not a biological CI",
+  "null": "Mean score of ten permutations per target; replicate scores retained; not an exhaustive randomization test",
+  "coverage": "Minimum covered-view count over fit/refit-derived test prediction contexts and splits for the same target; bins 0-6,7-9,10-12",
+  "proximity": "Mean nearest-training similarity across contexts/splits, then tertiles within dataset using priors only",
+  "coverage_macro": "Not aggregated across datasets because low-coverage bins may be absent in some datasets",
+  "p_values": "No confirmatory p values or significance stars; all contrasts exploratory"
+}

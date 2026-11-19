@@ -1,0 +1,31 @@
+panel	quantity	numerical_source	verification_level	result_and_scope
+Fig. 1a,b	Editable model schematic	figures/fig1/Figure1.drawio	Schematic	No numerical endpoint
+Fig. 2a	Ten ranks, seven methods, five equal-weight datasets	source_data/fig2/target_metrics.csv	Recomputed from target metrics	Best or joint-best rank on 9 of 10 metrics
+Fig. 2b	Shared-response-corrected Pearson	source_data/fig2/condition_metrics.csv	Recomputed from condition metrics	Adamson 0.472 KiPERT and 0.304 GEARS
+Fig. 2c	PDS definition	figures/fig2/plot.py	Schematic	No separate fit
+Fig. 2d	L2 and cosine PDS	source_data/fig2/target_metrics.csv	Cosine endpoints verified from target metrics; both distances redrawn	KiPERT cosine 0.656, 0.576, 0.622 in Adamson, Norman singles and Frangieh
+Fig. 2e,f	Tian CRISPRa and Norman singles landscapes	source_data/fig2/landscapes.npz	Source matrices checked and redrawn	19 by 19 and 14 by 14; raw matrices not re-derived
+Fig. 2 tutorial	Tian CRISPRi, S3 split101	examples/single_small	Refitted with frozen selection from training summaries and prior kernels	33 query rows, 19 distinct targets, 4 contexts, 14581 genes; maximum absolute error 0
+Fig. 3a–c	Opposite-direction fractions, seen 0/1/2	source_data/fig3/Figure3_metric_source.csv	Recomputed from fold-level summaries	0.081, 0.069, 0.059; best comparators 0.099, 0.095, 0.084
+Fig. 3d,e	Normalized top-20 MSE	source_data/fig3/fold_metrics.csv	Recomputed from fold-level summaries	Norman 0.250/0.177/0.110; Replogle exp6 0.232/0.206/0.189
+Fig. 3f	Norman seen-0 retrieval	source_data/fig3/retrieval_target.csv	Recomputed from target hits	Top 1/4/8 = 71.0%/93.5%/97.4%
+Fig. 3g	ARHGDIB in the Norman example	source_data/fig3/Figure3_case_source.csv	Checked against gene-level source data	Constituent sum 0.894, observed 0.266, KiPERT 0.175
+Fig. 3h	Replogle exp6 fold0, seen2	source_data/fig3/GI_D2_fold0_seen2.npz	Refitted KiPERT and scored against experimental observations; archived additive comparator	6000 pair–gene contrasts; MSE 0.00112115 vs 0.00228642; 50.9646% reduction
+Fig. 3 example	Replogle exp6 fold0, seen0/1/2	examples/double_small	Refitted each arm from training data	36 rows by 5000 genes per arm; maximum absolute difference below 6e-18
+Fig. 4a–e	Five methods across four cell lines	source_data/fig4/Figure4_abcde_summary.csv	Checked leading means in panel source; DEG overlap recalculated from cell-line summaries	KiPERT leads all five displayed metrics; DEG overlap 0.217, TxPert 0.134, STATE 0.066
+Fig. 4f	SEH1L squared Pearson, scoring-adapted means	source_data/fig4/SEH1L_k562.npz	Recomputed correlations from stored adapted predictions and observed arrays for each line	Range 0.97175–0.98297
+Fig. 4 example	SEH1L raw model predictions, four held-out lines	examples/transfer_small	Inference replay with fitted OT maps and source weights	6642 genes per line; maximum absolute error below 1.4e-15; source GPs and maps not refitted
+Fig. 4g	PDS and expression-change MSE versus PMean	source_data/fig4/paired_bootstrap_reference.json	Recomputed paired means and the 95% PDS interval from per-condition scores	3,712 conditions across four cell lines. PDS increased 5.8791% (95% interval 5.23–6.57%, both endpoints match the manuscript). MSE increased 7.3829%.
+Fig. 5a	Sampling and evaluation design	configs/cardiac/protocol.json	Schematic and actual cell splits supplied	5 or 10 input cells; 20 splits
+Fig. 5b,c	Cardiac program errors and paired intervals	source_data/fig5/query_split_results.csv	Recomputed from stored program predictions and reference means with target bootstrap	Delta MSE reductions 40.0% (30.0–46.3%) and 22.7% (−0.6 to 36.3%)
+Fig. 5d	Calr rank among all target–batch estimates	source_data/fig5/panel_d_predicted_landscape.csv	Reranked full prediction table	First in 4 of 4 batches among 211 estimates
+Fig. 5e,f	Eight-gene cardiac module	source_data/fig5/panel_e_Calr_gene_responses.csv	Gene directions and eight-gene means recomputed; cell-sampling intervals retained from source	Four reported genes upregulated in all four batches; observed and predicted module means matched
+ED Fig. 1a,b	Jointly permuted priors	experiments/extended_data/inputs/priors/comparison_target_metrics.csv.gz	Recomputed paired effects and intervals from scored targets	Full versus jointly permuted priors
+ED Fig. 1c,d	Prior-number curves	experiments/extended_data/inputs/priors/quantity_curves.csv	Rebuilt panels from frozen subset summaries	Eight subset sizes; original models not refitted
+ED Fig. 2a,b	Omit one view and three-prior comparison	experiments/extended_data/inputs/supplement/single_target_metrics.csv.gz	Recomputed paired effects and intervals from scored targets	All 12 removals, individual datasets and macro means
+ED Fig. 3a,b	Dense priors and proximity groups	experiments/extended_data/inputs/priors/stratified_target_metrics.csv.gz	Recomputed paired effects and intervals from scored targets	Four-prior comparison and three proximity strata
+ED Fig. 4a	Aligned versus uniform priors	experiments/extended_data/inputs/supplement/condition_metrics.csv.gz	Recomputed from condition metrics and bootstrapped	Common conditions, equal-dataset average
+ED Fig. 4b,c	Alignment coefficient sensitivity	experiments/extended_data/inputs/supplement/key_beta_sensitivity.csv	Rebuilt panels from frozen beta summaries	Five beta values; original models not refitted
+ED Fig. 5	CORUM removal	experiments/extended_data/inputs/supplement/double_pair_metrics.csv.gz	Recomputed nMSE ratios and intervals from scored pairs	3.35%, 2.95%, 1.74% increase in seen 0/1/2
+ED Fig. 6a	Full versus identity transport	experiments/extended_data/inputs/supplement/transfer_condition_metrics.csv.gz	Recomputed PDS ratios and intervals from scored conditions	5.22% increase; 95% interval 4.68–5.77%
+ED Fig. 6b,c	Partial transport	experiments/extended_data/inputs/supplement/transfer_macro.csv	Rebuilt panels from frozen transport summaries	Five eta values; original maps not refitted

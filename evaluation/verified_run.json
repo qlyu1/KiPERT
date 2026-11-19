@@ -1,0 +1,297 @@
+{
+  "status": "PASS",
+  "system": "Darwin",
+  "machine": "arm64",
+  "python": "3.10.15",
+  "numpy": "1.26.4",
+  "scipy": "1.14.1",
+  "pandas": "2.2.3",
+  "checks": {
+    "tutorial": {
+      "values": {
+        "shape": [
+          33,
+          14581
+        ],
+        "contexts": 4,
+        "max_abs_error": 0.0
+      },
+      "seconds": 0.24
+    },
+    "double": {
+      "values": {
+        "seen0": {
+          "shape": [
+            36,
+            5000
+          ],
+          "max_abs_error": 5.3465641937074434e-18
+        },
+        "seen1": {
+          "shape": [
+            36,
+            5000
+          ],
+          "max_abs_error": 2.8425280064705933e-18
+        },
+        "seen2": {
+          "shape": [
+            36,
+            5000
+          ],
+          "max_abs_error": 3.573958327217545e-18
+        }
+      },
+      "seconds": 1.683
+    },
+    "transfer": {
+      "values": {
+        "k562": {
+          "genes": 6642,
+          "max_abs_error": 1.3322676295501878e-15
+        },
+        "hepg2": {
+          "genes": 6642,
+          "max_abs_error": 8.881784197001252e-16
+        },
+        "rpe1": {
+          "genes": 6642,
+          "max_abs_error": 8.881784197001252e-16
+        },
+        "jurkat": {
+          "genes": 6642,
+          "max_abs_error": 8.881784197001252e-16
+        }
+      },
+      "seconds": 0.346
+    },
+    "fig2": {
+      "values": {
+        "best_or_tied": 9,
+        "metrics": 10,
+        "KiPERT_average_ranks": {
+          "mse": 1.8,
+          "pearson_delta": 1.6,
+          "systema_cell_pearson": 3.2,
+          "sp_mse100": 1.4,
+          "sp_pcc100": 1.8,
+          "auprc_dg": 1.4,
+          "deg_precision100": 1.5,
+          "deg_recall100": 1.5,
+          "top100_direction": 1.6,
+          "pds_query_cosine": 2.4
+        },
+        "Adamson_corrected_Pearson": {
+          "UC": 0.4719803390180434,
+          "gears": 0.30414654164076577
+        },
+        "KiPERT_cosine_PDS": {
+          "S5": 0.6555232558139535,
+          "S6": 0.5763618592418679,
+          "S7": 0.6224269491558353
+        },
+        "best_comparator_cosine_PDS": {
+          "S5": 0.6305717054263565,
+          "S6": 0.5647838570965749,
+          "S7": 0.5496542154347401
+        },
+        "landscape_axes_checked": {
+          "S4": 19,
+          "S6": 14
+        }
+      },
+      "seconds": 0.09
+    },
+    "fig3": {
+      "values": {
+        "opposite20": {
+          "seen0": 0.08098124999999994,
+          "seen1": 0.06888070436507934,
+          "seen2": 0.0592242063492063
+        },
+        "best_other": {
+          "seen0": 0.09911020171957668,
+          "seen1": 0.09517944775132273,
+          "seen2": 0.08430471230158726
+        },
+        "nMSE20": {
+          "D1": [
+            0.2497016481193144,
+            0.17678849547400483,
+            0.1099176073893154
+          ],
+          "D2": [
+            0.23236942453165438,
+            0.20620851512341726,
+            0.18887114165920682
+          ]
+        },
+        "Norman_seen0_topk": {
+          "1": 0.7101662887377173,
+          "4": 0.9351883345930966,
+          "8": 0.9739701436130008
+        },
+        "ARHGDIB": [
+          0.8939171135425568,
+          0.2656295672059059,
+          0.1745267882943153
+        ],
+        "contrast_MSE": {
+          "available_evidence_additive": 0.0022864153052093252,
+          "kipert": 0.0011211525630836188
+        },
+        "contrast_reduction_percent": 50.96461432316316
+      },
+      "seconds": 0.079
+    },
+    "fig3h_refit": {
+      "values": {
+        "held_out_pairs": 6,
+        "genes": 1000,
+        "pair_mean_max_abs_error": 0.0,
+        "KiPERT_MSE": 0.0011211525630836206,
+        "additive_MSE": 0.0022864153052093287,
+        "reduction_percent": 50.96461432316315
+      },
+      "seconds": 0.152
+    },
+    "fig4": {
+      "values": {
+        "conditions": 3712,
+        "targets": 1595,
+        "macro_overlap": {
+          "CMean": 0.0,
+          "KiPERT": 0.21710596840146174,
+          "STACK": 0.0739875110320522,
+          "STATE": 0.06641819066136667,
+          "TxPert": 0.13394041676547994
+        },
+        "SEH1L_squared_Pearson": {
+          "k562": 0.9792325509024882,
+          "hepg2": 0.9763816574829929,
+          "rpe1": 0.9829702842820831,
+          "jurkat": 0.9717498315696395
+        },
+        "KiPERT_higher_PDS_fraction": {
+          "hepg2": 0.6228373702422145,
+          "jurkat": 0.6370143149284253,
+          "k562": 0.5746606334841629,
+          "rpe1": 0.5757884028484231
+        },
+        "pds_l1_exclude_target": {
+          "KiPERT": 0.6985410718277021,
+          "PMean": 0.6597534480663126,
+          "relative_change_percent": 5.879108911832609
+        },
+        "mse_delta": {
+          "KiPERT": 0.008416214261654648,
+          "PMean": 0.007837570583822256,
+          "relative_change_percent": 7.382946943109969
+        }
+      },
+      "seconds": 0.058
+    },
+    "fig4_interval": {
+      "values": {
+        "draws": 5000,
+        "seed": 20261113,
+        "unit": "perturbation gene across target lines",
+        "difference_ci_verified": [
+          0.03479125915380751,
+          0.042956176415153834
+        ],
+        "ratio_ci_percent_this_replay": [
+          5.230559902406689,
+          6.569472265954549
+        ],
+        "ratio_ci_percent_manuscript": [
+          5.23,
+          6.57
+        ],
+        "ratio_endpoints_match_at_printed_precision": [
+          true,
+          true
+        ]
+      },
+      "seconds": 0.851
+    },
+    "fig5": {
+      "values": {
+        "5_cells_delta": {
+          "raw_MSE": 0.03213368598562443,
+          "KiPERT_MSE": 0.019266308399738218,
+          "reduction_percent": 40.043266719051964,
+          "CI95_percent": [
+            29.986927829244763,
+            46.33878460356736
+          ],
+          "targets": 33
+        },
+        "5_cells_absolute": {
+          "raw_MSE": 0.02414359718726546,
+          "KiPERT_MSE": 0.01214722159121935,
+          "reduction_percent": 49.687606627125135,
+          "CI95_percent": [
+            39.219019492512345,
+            56.088232225058675
+          ],
+          "targets": 33
+        },
+        "10_cells_delta": {
+          "raw_MSE": 0.017767483051220802,
+          "KiPERT_MSE": 0.013728200061676585,
+          "reduction_percent": 22.734131660064694,
+          "CI95_percent": [
+            -0.6300250681781243,
+            36.32619290940314
+          ],
+          "targets": 24
+        },
+        "10_cells_absolute": {
+          "raw_MSE": 0.012456155789316234,
+          "KiPERT_MSE": 0.008711509945594545,
+          "reduction_percent": 30.062612470964023,
+          "CI95_percent": [
+            -4.908859639315855,
+            46.52630308956555
+          ],
+          "targets": 24
+        },
+        "Calr_batch_ranks": {
+          "2w1": 1.0,
+          "2w2": 1.0,
+          "2w3": 1.0,
+          "2w4": 1.0
+        },
+        "matched_upregulation_genes": [
+          "Tnnt2",
+          "Ryr2",
+          "Ttn",
+          "Myl4"
+        ]
+      },
+      "seconds": 0.076
+    },
+    "extended": {
+      "values": {
+        "1a": 6,
+        "1b": 6,
+        "1c": 8,
+        "1d": 8,
+        "2a": 72,
+        "2b": 6,
+        "3a": 6,
+        "3b": 3,
+        "4a": 6,
+        "4b": 5,
+        "4c": 5,
+        "5": 3,
+        "6a": 6,
+        "6b": 5,
+        "6c": 5,
+        "6_temperature": 3
+      },
+      "seconds": 2.111
+    }
+  }
+}

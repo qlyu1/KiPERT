@@ -1,0 +1,10 @@
+{
+  "name": "JOINT_TENSOR",
+  "node_mode": "hybrid",
+  "lambda_pair": 1.0,
+  "lambda_int": 0.5,
+  "pair_intercept": true,
+  "response": "full",
+  "alpha": 10.0,
+  "id": "JOINT_TENSOR_A10"
+}
