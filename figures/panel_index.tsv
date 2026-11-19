@@ -1,0 +1,31 @@
+panel	source	drawing_or_example	verify_key
+Fig. 1a,b	figures/fig1/Figure1.drawio	figures/fig1/Figure1.drawio	schematic
+Fig. 2a	source_data/fig2/target_metrics.csv	figures/fig2/plot.py	fig2
+Fig. 2b	source_data/fig2/condition_metrics.csv	figures/fig2/plot.py	fig2
+Fig. 2c	figures/fig2/plot.py	figures/fig2/plot.py	fig2
+Fig. 2d	source_data/fig2/target_metrics.csv	figures/fig2/plot.py	fig2
+Fig. 2e,f	source_data/fig2/landscapes.npz	figures/fig2/plot.py	fig2
+Fig. 2 tutorial	examples/single_small	tutorial/quickstart.ipynb	tutorial
+Fig. 3a–c	source_data/fig3/Figure3_metric_source.csv	figures/fig3/plot.py	fig3
+Fig. 3d,e	source_data/fig3/fold_metrics.csv	figures/fig3/plot.py	fig3
+Fig. 3f	source_data/fig3/retrieval_target.csv	figures/fig3/plot.py	fig3
+Fig. 3g	source_data/fig3/Figure3_case_source.csv	figures/fig3/plot.py	fig3
+Fig. 3h	source_data/fig3/GI_D2_fold0_seen2.npz	figures/fig3/plot.py	fig3h_refit
+Fig. 3 example	examples/double_small	experiments/fig3_double/run.py	double
+Fig. 4a–e	source_data/fig4/Figure4_abcde_summary.csv	figures/fig4/plot.py	fig4
+Fig. 4f	source_data/fig4/SEH1L_k562.npz	figures/fig4/plot.py	fig4
+Fig. 4 example	examples/transfer_small	experiments/fig4_transfer/run.py	transfer
+Fig. 4g	source_data/fig4/paired_bootstrap_reference.json	figures/fig4/plot.py	fig4_interval
+Fig. 5a	configs/cardiac/protocol.json	figures/fig5/plot.py	fig5
+Fig. 5b,c	source_data/fig5/query_split_results.csv	figures/fig5/plot.py	fig5
+Fig. 5d	source_data/fig5/panel_d_predicted_landscape.csv	figures/fig5/plot.py	fig5
+Fig. 5e,f	source_data/fig5/panel_e_Calr_gene_responses.csv	figures/fig5/plot.py	fig5
+ED Fig. 1a,b	experiments/extended_data/inputs/priors/comparison_target_metrics.csv.gz	figures/extended_data/plot.py	extended
+ED Fig. 1c,d	experiments/extended_data/inputs/priors/quantity_curves.csv	figures/extended_data/plot.py	extended
+ED Fig. 2a,b	experiments/extended_data/inputs/supplement/single_target_metrics.csv.gz	figures/extended_data/plot.py	extended
+ED Fig. 3a,b	experiments/extended_data/inputs/priors/stratified_target_metrics.csv.gz	figures/extended_data/plot.py	extended
+ED Fig. 4a	experiments/extended_data/inputs/supplement/condition_metrics.csv.gz	figures/extended_data/plot.py	extended
+ED Fig. 4b,c	experiments/extended_data/inputs/supplement/key_beta_sensitivity.csv	figures/extended_data/plot.py	extended
+ED Fig. 5	experiments/extended_data/inputs/supplement/double_pair_metrics.csv.gz	figures/extended_data/plot.py	extended
+ED Fig. 6a	experiments/extended_data/inputs/supplement/transfer_condition_metrics.csv.gz	figures/extended_data/plot.py	extended
+ED Fig. 6b,c	experiments/extended_data/inputs/supplement/transfer_macro.csv	figures/extended_data/plot.py	extended

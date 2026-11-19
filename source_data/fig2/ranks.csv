@@ -1,0 +1,85 @@
+﻿method,metric,mean_rank,mean_score,dataset_count,metric_label
+UC,mse,1.8,0.8666666666666666,5,全基因 MSE
+biolord,mse,1.8,0.8666666666666666,5,全基因 MSE
+scouter,mse,4.0,0.5,5,全基因 MSE
+txpert,mse,4.0,0.5,5,全基因 MSE
+gears,mse,4.4,0.4333333333333333,5,全基因 MSE
+stamp,mse,6.4,0.1,5,全基因 MSE
+regformer,mse,5.6,0.2333333333333333,5,全基因 MSE
+UC,pearson_delta,1.6,0.9,5,全基因 Pearson Δ
+biolord,pearson_delta,1.8,0.8666666666666666,5,全基因 Pearson Δ
+scouter,pearson_delta,3.8,0.5333333333333333,5,全基因 Pearson Δ
+txpert,pearson_delta,3.4,0.6,5,全基因 Pearson Δ
+gears,pearson_delta,5.0,0.3333333333333333,5,全基因 Pearson Δ
+stamp,pearson_delta,6.8,0.03333333333333333,5,全基因 Pearson Δ
+regformer,pearson_delta,5.6,0.2333333333333333,5,全基因 Pearson Δ
+UC,systema_cell_pearson,3.2,0.6333333333333333,5,Systema 校正 Pearson
+biolord,systema_cell_pearson,2.6,0.7333333333333334,5,Systema 校正 Pearson
+scouter,systema_cell_pearson,3.0,0.6666666666666666,5,Systema 校正 Pearson
+txpert,systema_cell_pearson,6.0,0.16666666666666666,5,Systema 校正 Pearson
+gears,systema_cell_pearson,3.6,0.5666666666666667,5,Systema 校正 Pearson
+stamp,systema_cell_pearson,4.4,0.4333333333333333,5,Systema 校正 Pearson
+regformer,systema_cell_pearson,5.2,0.3,5,Systema 校正 Pearson
+UC,sp_mse100,1.4,0.9333333333333333,5,Top-100 MSE
+biolord,sp_mse100,3.4,0.6,5,Top-100 MSE
+scouter,sp_mse100,2.2,0.8,5,Top-100 MSE
+txpert,sp_mse100,3.6,0.5666666666666667,5,Top-100 MSE
+gears,sp_mse100,4.8,0.36666666666666664,5,Top-100 MSE
+stamp,sp_mse100,6.8,0.03333333333333333,5,Top-100 MSE
+regformer,sp_mse100,5.8,0.2,5,Top-100 MSE
+UC,sp_pcc100,1.8,0.8666666666666666,5,Top-100 PCC Δ
+biolord,sp_pcc100,1.8,0.8666666666666666,5,Top-100 PCC Δ
+scouter,sp_pcc100,3.6,0.5666666666666667,5,Top-100 PCC Δ
+txpert,sp_pcc100,3.8,0.5333333333333333,5,Top-100 PCC Δ
+gears,sp_pcc100,4.6,0.4,5,Top-100 PCC Δ
+stamp,sp_pcc100,6.8,0.03333333333333333,5,Top-100 PCC Δ
+regformer,sp_pcc100,5.6,0.2333333333333333,5,Top-100 PCC Δ
+UC,auprc_dg,1.4,0.9333333333333332,5,DEG AUPRC（非线性插值）
+biolord,auprc_dg,3.0,0.6666666666666666,5,DEG AUPRC（非线性插值）
+scouter,auprc_dg,3.4,0.6,5,DEG AUPRC（非线性插值）
+txpert,auprc_dg,3.6,0.5666666666666667,5,DEG AUPRC（非线性插值）
+gears,auprc_dg,4.4,0.4333333333333333,5,DEG AUPRC（非线性插值）
+stamp,auprc_dg,6.8,0.03333333333333333,5,DEG AUPRC（非线性插值）
+regformer,auprc_dg,5.4,0.26666666666666666,5,DEG AUPRC（非线性插值）
+UC,deg_precision100,1.5,0.9166666666666666,5,DEG precision@100
+biolord,deg_precision100,3.1,0.65,5,DEG precision@100
+scouter,deg_precision100,4.1,0.4833333333333334,5,DEG precision@100
+txpert,deg_precision100,3.5,0.5833333333333333,5,DEG precision@100
+gears,deg_precision100,5.1,0.31666666666666665,5,DEG precision@100
+stamp,deg_precision100,4.8,0.36666666666666664,5,DEG precision@100
+regformer,deg_precision100,5.9,0.1833333333333333,5,DEG precision@100
+UC,deg_recall100,1.5,0.9166666666666666,5,DEG recall@100
+biolord,deg_recall100,3.3,0.6166666666666666,5,DEG recall@100
+scouter,deg_recall100,3.5,0.5833333333333334,5,DEG recall@100
+txpert,deg_recall100,3.1,0.65,5,DEG recall@100
+gears,deg_recall100,5.5,0.25,5,DEG recall@100
+stamp,deg_recall100,6.2,0.13333333333333333,5,DEG recall@100
+regformer,deg_recall100,4.9,0.35,5,DEG recall@100
+UC,top100_direction,1.6,0.9,5,Top-100方向一致率
+biolord,top100_direction,1.9,0.85,5,Top-100方向一致率
+scouter,top100_direction,3.6,0.5666666666666667,5,Top-100方向一致率
+txpert,top100_direction,4.3,0.45,5,Top-100方向一致率
+gears,top100_direction,5.4,0.26666666666666666,5,Top-100方向一致率
+stamp,top100_direction,5.2,0.3,5,Top-100方向一致率
+regformer,top100_direction,6.0,0.16666666666666666,5,Top-100方向一致率
+UC,pds_query_l2,3.4,0.6,5,L2 PDS
+biolord,pds_query_l2,6.0,0.16666666666666666,5,L2 PDS
+scouter,pds_query_l2,2.2,0.8,5,L2 PDS
+txpert,pds_query_l2,4.4,0.4333333333333333,5,L2 PDS
+gears,pds_query_l2,3.4,0.6,5,L2 PDS
+stamp,pds_query_l2,5.4,0.26666666666666666,5,L2 PDS
+regformer,pds_query_l2,3.2,0.6333333333333333,5,L2 PDS
+UC,pds_query_cosine,2.4,0.7666666666666666,5,Cosine PDS
+biolord,pds_query_cosine,5.2,0.3,5,Cosine PDS
+scouter,pds_query_cosine,4.2,0.4666666666666667,5,Cosine PDS
+txpert,pds_query_cosine,4.8,0.36666666666666664,5,Cosine PDS
+gears,pds_query_cosine,3.8,0.5333333333333333,5,Cosine PDS
+stamp,pds_query_cosine,4.8,0.3666666666666667,5,Cosine PDS
+regformer,pds_query_cosine,2.8,0.7,5,Cosine PDS
+UC,pb_reverse_rank_l2,3.0,0.6666666666666666,5,反向L2扰动检索名次
+biolord,pb_reverse_rank_l2,3.6,0.5666666666666667,5,反向L2扰动检索名次
+scouter,pb_reverse_rank_l2,3.0,0.6666666666666667,5,反向L2扰动检索名次
+txpert,pb_reverse_rank_l2,5.6,0.2333333333333333,5,反向L2扰动检索名次
+gears,pb_reverse_rank_l2,3.8,0.5333333333333333,5,反向L2扰动检索名次
+stamp,pb_reverse_rank_l2,5.6,0.2333333333333333,5,反向L2扰动检索名次
+regformer,pb_reverse_rank_l2,3.4,0.6,5,反向L2扰动检索名次

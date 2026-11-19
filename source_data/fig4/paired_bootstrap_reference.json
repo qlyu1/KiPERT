@@ -1,0 +1,90 @@
+{
+  "by_context": [
+    {
+      "context": "k562",
+      "n": 884,
+      "wins": 508,
+      "ties": 55,
+      "losses": 321,
+      "win_fraction": 0.5746606334841629,
+      "KiPERT_mean_pds": 0.7742022583485186,
+      "PMean_mean_pds": 0.744567832353965,
+      "mean_delta_pds": 0.02963442599455376,
+      "median_delta_pds": 0.004524886877828038,
+      "mean_delta_ci_low": 0.02370018273581622,
+      "mean_delta_ci_high": 0.035759083044982695,
+      "median_delta_ci_low": 0.002262443438914019,
+      "median_delta_ci_high": 0.006787330316741946,
+      "win_fraction_ci_low": 0.5418552036199095,
+      "win_fraction_ci_high": 0.6074660633484162
+    },
+    {
+      "context": "hepg2",
+      "n": 867,
+      "wins": 540,
+      "ties": 44,
+      "losses": 283,
+      "win_fraction": 0.6228373702422145,
+      "KiPERT_mean_pds": 0.7351045445656381,
+      "PMean_mean_pds": 0.6811327557008283,
+      "mean_delta_pds": 0.05397178886480978,
+      "median_delta_pds": 0.008073817762398988,
+      "mean_delta_ci_low": 0.046104805311771226,
+      "mean_delta_ci_high": 0.06287706751063271,
+      "median_delta_ci_low": 0.0046136101499424376,
+      "median_delta_ci_high": 0.01038062283737018,
+      "win_fraction_ci_low": 0.5893886966551326,
+      "win_fraction_ci_high": 0.6551326412918108
+    },
+    {
+      "context": "rpe1",
+      "n": 983,
+      "wins": 566,
+      "ties": 61,
+      "losses": 356,
+      "win_fraction": 0.5757884028484231,
+      "KiPERT_mean_pds": 0.5844338495005117,
+      "PMean_mean_pds": 0.5703552456873667,
+      "mean_delta_pds": 0.01407860381314493,
+      "median_delta_pds": 0.00203458799593087,
+      "mean_delta_ci_low": 0.010632403970240787,
+      "mean_delta_ci_high": 0.017720837140855365,
+      "median_delta_ci_low": 0.0020345879959307867,
+      "median_delta_ci_high": 0.004069175991861518,
+      "win_fraction_ci_low": 0.5442522889114955,
+      "win_fraction_ci_high": 0.6063072227873856
+    },
+    {
+      "context": "jurkat",
+      "n": 978,
+      "wins": 623,
+      "ties": 21,
+      "losses": 334,
+      "win_fraction": 0.6370143149284253,
+      "KiPERT_mean_pds": 0.7004236348961405,
+      "PMean_mean_pds": 0.6429579585230908,
+      "mean_delta_pds": 0.05746567637304963,
+      "median_delta_pds": 0.012269938650306789,
+      "mean_delta_ci_low": 0.04845763232840277,
+      "mean_delta_ci_high": 0.06681881244223636,
+      "median_delta_ci_low": 0.009202453987730008,
+      "median_delta_ci_high": 0.015337423312883514,
+      "win_fraction_ci_low": 0.6063394683026585,
+      "win_fraction_ci_high": 0.6666666666666666
+    }
+  ],
+  "equal_context_macro": {
+    "context_weighting": "Equal weight per cell line",
+    "n_contexts": 4,
+    "n_condition_pairs": 3712,
+    "n_unique_perturbation_genes": 1595,
+    "mean_delta_pds": 0.03878762376138953,
+    "mean_delta_ci": [
+      0.0347912591538074,
+      0.04295617641515384
+    ],
+    "KiPERT_mean_pds": 0.6985410718277022,
+    "PMean_mean_pds": 0.6597534480663126,
+    "bootstrap_unit": "Perturbation gene, sampled jointly across all its represented cell-line contexts; context means recomputed then equally averaged."
+  }
+}
