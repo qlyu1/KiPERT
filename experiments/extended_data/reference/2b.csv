@@ -1,0 +1,7 @@
+comparison,model,reference,metric,model_mean,reference_mean,relative_change_percent,relative_ci_low_percent,relative_ci_high_percent,n_clusters,n_paired_units,groups,bootstrap_seed,dataset,display_label
+full_vs_three_prior_S3,full_beta0p5_retuned,three_prior_retuned,auprc_dg,0.013186239832799726,0.008369133721643123,57.558001477491686,-1.624042556664348,100.39789675065443,8,8,1,2195209672,S3,Tian CRISPRi
+full_vs_three_prior_S4,full_beta0p5_retuned,three_prior_retuned,auprc_dg,0.12219288665807078,0.09822206463385119,24.40472221142691,0.6849622020026169,88.3463728768058,24,24,1,2076157963,S4,Tian CRISPRa
+full_vs_three_prior_S5,full_beta0p5_retuned,three_prior_retuned,auprc_dg,0.47424298827054756,0.4027518065703869,17.750679334983065,10.063454886258581,27.728520298707803,43,43,1,2031187985,S5,Adamson
+full_vs_three_prior_S6,full_beta0p5_retuned,three_prior_retuned,auprc_dg,0.16688042445756499,0.15232740656450677,9.553775135596098,2.530312691714736,19.250260102716517,41,41,1,2212628952,S6,Norman singles
+full_vs_three_prior_S7,full_beta0p5_retuned,three_prior_retuned,auprc_dg,0.023973177864871586,0.023177211246508126,3.4342639841252742,-5.7525837575157714,14.736184709455609,106,106,1,2070358208,S7,Frangieh
+full_vs_three_prior,full_beta0p5_retuned,three_prior_retuned,auprc_dg,0.16009514341677095,0.1369695245473792,16.883769543488736,10.237928392589781,25.524017621608806,217,222,5,2225376787,macro,Equal-dataset mean

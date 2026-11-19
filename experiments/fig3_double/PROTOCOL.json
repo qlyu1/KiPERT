@@ -1,0 +1,59 @@
+{
+  "version": "KiPERT_DOUBLE_PRESERVED_HEAD_V1_20261106_EXACT_MEANS",
+  "utc": "2026-11-05T19:55:24.949506+00:00",
+  "scope": "Latest complete SEEN012_V1 double-perturbation benchmark; older P0/P1/P2 experiment not replaced",
+  "datasets": [
+    "D1",
+    "D2",
+    "D3",
+    "D4"
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "arms": [
+    "seen0",
+    "seen1",
+    "seen2"
+  ],
+  "runs": 60,
+  "source_model": "KiPERT UC-WFR aligned_raw",
+  "source_method_sha256": "425bac1239c79b61b4dcfd204629691d9008ad960a4129c44d30b2dadd46918d",
+  "preserved": "Existing cells, axes, control partitions, queries, singleton masks, no validation refit, arity-balanced joint loss, single/double shared head and pair-only calibration/tensor kernels. Each fold freezes its original selected lambda_pair, lambda_int and pair_intercept.",
+  "updated": "12 public priors; half uniform plus half positive response-kernel alignment; full output responses; alpha in [0.01,0.1,1]. No rank512 truncation.",
+  "alignment": "Fit-only unique component transforms. Lift each view to original condition kernel using frozen double-head coefficients; compare positive off-diagonal centered alignment against unit training residual Gram after weighted arity-intercept removal and exclusion of all bank target genes from alignment output axis. Fuse NODE kernels then apply unchanged double kernel, preserving tensor cross-view terms.",
+  "selection": "Seen0 validation only: maximize target-macro mean cosine/L2 PDS, ties by smaller MSE then smaller alpha; a pool with one query has undefined PDS; if all pools undefined use MSE. Alpha frozen across all three arms. Existing double benchmark restriction of no validation refit retained.",
+  "prediction": "Analytic joint kernel ridge; unpenalized arity/pair intercepts, arity-balanced loss; full response; nonnegative expression projection.",
+  "primary_comparison": "Same-query old-vs-new paired nMSE; query-context then pair then fold aggregation. Descriptive split SD; paired target-cluster bootstrap 95% intervals and Holm-adjusted paired permutation p over 12 dataset-arm comparisons.",
+  "secondary_metrics": [
+    "PCC_delta",
+    "specific_MRR",
+    "posthoc_DEG100_MSE",
+    "posthoc_DEG100_sign"
+  ],
+  "baseline_note": "Other models and original three-prior baselines preserved; label these Legacy 3-prior rather than matched KiPERT priors.",
+  "precision": "Exact original scipy sparse float32 pseudobulk means and float32 perturbation-control subtraction, copied to fit-only cache before training. Old-model replay parity threshold remains 2e-6.",
+  "isolation": "Training workers use Landlock filesystem allowlist excluding test responses, old predictions and test score files.",
+  "retrospective": true,
+  "test_reselection": false,
+  "source_code_sha256": {
+    "kipert_double.py": "cc53cd6d4b29ec5684d983920d5044930304f14616cc4027ab2a985a87084284",
+    "isolation_double.py": "73d9710acf3f5486f99a55b5ce3ef5ab4ece29a862384de59eb08b2050912e1b",
+    "run_double.py": "90b94d97904a0da7868c31eda44e9898ba3487bae694661a00fd2562b465a0f4",
+    "register_double.py": "ae4303cb827b12c8051406563b9ae4faad2cda2efcd374059cb4ba3da28bcc17",
+    "amend_protocol.py": "7b7bc89a0a4069fe4c4b80faa2a9f4a12b5524154e8ff47b85397cbb082ffa44",
+    "score_double.py": "378a545b3109269f4557a6d80beccfdb02b27506fa8e6199ad1ae89f2e70cfbd",
+    "prepare_exact.py": "379c2cb228d8f40dac21933bfe69d8173fac297c7f4eb36988a7fc2b16630129",
+    "preflight_double.py": "e91f5b73779fd12d941040940e32dd7f77b68f2ca8e1f0ad76fd305e4ab37151"
+  },
+  "amendment": {
+    "utc": "2026-11-05T20:03:20.039466+00:00",
+    "before_new_training": true,
+    "reason": "Compact export float64 accumulation caused a 2.4147e-6 old-model replay discrepancy. Use original sparse mean operations; no hyperparameter or model change; no new test scores observed.",
+    "previous_protocol_sha256": "0432e72325d1dccd9fa4acbc9a7e5a3c910db97b7b5bedfe6a5cbc1d65fdea29"
+  }
+}

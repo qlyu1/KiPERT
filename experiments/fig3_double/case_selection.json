@@ -1,0 +1,38 @@
+[
+  {
+    "dataset": "D1",
+    "fold": 0,
+    "target": "ENSG00000066336+ENSG00000108984",
+    "context": "gemgroup=2",
+    "display": "SPI1+ENSG00000108984",
+    "cells": 38,
+    "selection": "Median L2 norm of true control-centred response among fold0 query-contexts; independent of predictions"
+  },
+  {
+    "dataset": "D2",
+    "fold": 0,
+    "target": "ENSG00000136273+ENSG00000198911",
+    "context": "gemgroup=4",
+    "display": "ENSG00000136273+ENSG00000198911",
+    "cells": 104,
+    "selection": "Median L2 norm of true control-centred response among fold0 query-contexts; independent of predictions"
+  },
+  {
+    "dataset": "D3",
+    "fold": 0,
+    "target": "ENSG00000131149+ENSG00000164880",
+    "context": "lane=L4",
+    "display": "ENSG00000131149+ENSG00000164880",
+    "cells": 164,
+    "selection": "Median L2 norm of true control-centred response among fold0 query-contexts; independent of predictions"
+  },
+  {
+    "dataset": "D4",
+    "fold": 0,
+    "target": "ENSG00000118260+ENSG00000177463",
+    "context": "GSM2396860_HighMOI",
+    "display": "CREB1+ENSG00000177463",
+    "cells": 164,
+    "selection": "Median L2 norm of true control-centred response among fold0 query-contexts; independent of predictions"
+  }
+]

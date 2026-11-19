@@ -1,0 +1,7 @@
+comparison,model,reference,metric,model_mean,reference_mean,relative_change_percent,relative_ci_low_percent,relative_ci_high_percent,n_clusters,n_paired_units,groups,bootstrap_seed,dataset,display_label
+full_vs_joint_shuffle_mean_retuned_S3,full_retuned,joint_shuffle_mean_retuned,auprc_dg,0.013186239832799726,0.007359537186646454,79.17213404024317,23.356664682689672,118.74064041128986,8,8,1,2049002590,S3,Tian CRISPRi
+full_vs_joint_shuffle_mean_retuned_S4,full_retuned,joint_shuffle_mean_retuned,auprc_dg,0.12219288665807078,0.11833347768346818,3.261468394367806,-5.621560418569102,15.35042479678505,24,24,1,2060182079,S4,Tian CRISPRa
+full_vs_joint_shuffle_mean_retuned_S5,full_retuned,joint_shuffle_mean_retuned,auprc_dg,0.47424298827054756,0.32970674134751626,43.8378197340793,27.316160279525615,66.56247659049109,43,43,1,2099717961,S5,Adamson
+full_vs_joint_shuffle_mean_retuned_S6,full_retuned,joint_shuffle_mean_retuned,auprc_dg,0.16688042445756499,0.15902438095105711,4.94015034645896,-2.636642592139283,11.457206732194793,41,41,1,2170684786,S6,Norman singles
+full_vs_joint_shuffle_mean_retuned_S7,full_retuned,joint_shuffle_mean_retuned,auprc_dg,0.023973177864871586,0.012316758626193799,94.63869182179407,30.08119144706721,158.1415477599296,106,106,1,2116630286,S7,Frangieh
+full_vs_joint_shuffle_mean_retuned,full_retuned,joint_shuffle_mean_retuned,auprc_dg,0.16009514341677095,0.12534817915897636,27.720358198203865,18.513636372875414,39.38312626839436,217,222,5,2092139490,macro,Equal-dataset mean

@@ -1,0 +1,4 @@
+comparison,model,reference,metric,model_mean,reference_mean,relative_change_percent,relative_ci_low_percent,relative_ci_high_percent,n_clusters,n_paired_units,groups,bootstrap_seed,setting
+removing_CORUM_seen0,drop_CORUM_retuned,full_beta0p5_retuned,nMSE20,0.3143712562586935,0.3041909800174672,3.3466726201551777,1.3269281079737494,4.349421909508891,130,205,20,2048751942,seen0
+removing_CORUM_seen1,drop_CORUM_retuned,full_beta0p5_retuned,nMSE20,0.28369171832556045,0.2755582708254257,2.951625249995682,0.45605666071942885,3.988022840524996,130,205,20,2075948566,seen1
+removing_CORUM_seen2,drop_CORUM_retuned,full_beta0p5_retuned,nMSE20,0.2546013738027055,0.25024443778284,1.741072072757266,0.12137821560562925,2.4684747018279927,130,205,20,2091758231,seen2

@@ -1,0 +1,52 @@
+{
+  "a": {
+    "experiment": "equal-dataset average method ranks",
+    "metrics": [
+      "mse",
+      "pearson_delta",
+      "systema_cell_pearson",
+      "sp_mse100",
+      "sp_pcc100",
+      "auprc_dg",
+      "deg_precision100",
+      "deg_recall100",
+      "top100_direction",
+      "pds_query_cosine"
+    ],
+    "input": "source_data/fig2/ranks.csv",
+    "note": "10 selected metrics; the earlier atlas has 12"
+  },
+  "b": {
+    "experiment": "Pearson after subtracting cell-count-weighted shared training response",
+    "input": "source_data/fig2/condition_metrics.csv",
+    "metric": "systema_cell_pearson",
+    "aggregation": "target within split, then mean and Student-t 95% CI across three splits"
+  },
+  "c": {
+    "experiment": "conceptual perturbation discrimination illustration",
+    "input": "figures/fig2/plot.py",
+    "note": "drawn schematic; no separate training run"
+  },
+  "d": {
+    "experiment": "L2 and cosine perturbation discrimination",
+    "input": "source_data/fig2/target_metrics.csv",
+    "metrics": [
+      "pds_query_l2",
+      "pds_query_cosine"
+    ]
+  },
+  "e": {
+    "experiment": "Tian CRISPRa response cosine similarities",
+    "input": "source_data/fig2/landscapes.npz",
+    "dataset": "S4",
+    "split": 101,
+    "targets": 19
+  },
+  "f": {
+    "experiment": "Norman singles response cosine similarities",
+    "input": "source_data/fig2/landscapes.npz",
+    "dataset": "S6",
+    "split": 101,
+    "targets": 14
+  }
+}

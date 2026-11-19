@@ -1,0 +1,6 @@
+eta,variant,pds_l1_exclude_target
+0.0,weighted_identity,0.6639151247956122
+0.25,weighted_eta0p25,0.6734904814323011
+0.5,weighted_eta0p5,0.6826529049516743
+0.75,weighted_eta0p75,0.691068868090788
+1.0,weighted_OT,0.6985410718277022

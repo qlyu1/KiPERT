@@ -1,0 +1,7 @@
+comparison,model,reference,metric,model_mean,reference_mean,relative_change_percent,relative_ci_low_percent,relative_ci_high_percent,n_clusters,n_paired_units,groups,bootstrap_seed,dataset,display_label
+weighted_OT_vs_weighted_identity_k562,weighted_OT,weighted_identity,pds_l1_exclude_target,0.7742022583485186,0.761873989066563,1.6181506993118377,1.0476195695985646,2.2510065892687057,884,884,1,2183571482,k562,K562
+weighted_OT_vs_weighted_identity_hepg2,weighted_OT,weighted_identity,pds_l1_exclude_target,0.7351045445656381,0.6839038485331034,7.486534275593626,6.255527101802811,8.789645350271948,867,867,1,2232662234,hepg2,HepG2
+weighted_OT_vs_weighted_identity_rpe1,weighted_OT,weighted_identity,pds_l1_exclude_target,0.5844338495005117,0.5723194613619735,2.116717839667559,1.5707293559944775,2.7296573400462014,983,983,1,2153755314,rpe1,RPE1
+weighted_OT_vs_weighted_identity_jurkat,weighted_OT,weighted_identity,pds_l1_exclude_target,0.7004236348961405,0.6375632002208086,9.859482895744499,8.661107587148182,11.259080541700408,978,978,1,2061450479,jurkat,Jurkat
+weighted_OT_vs_weighted_identity,weighted_OT,weighted_identity,pds_l1_exclude_target,0.6985410718277021,0.6639151247956121,5.215417715140869,4.67613529232788,5.771484146578373,1595,3712,4,2263493967,macro,Equal-cell-line mean
+weighted_OT_vs_weighted_identity_retuned,weighted_OT,weighted_identity_retuned,pds_l1_exclude_target,0.6985410718277021,0.6631995626630218,5.328940360390089,4.747097069391414,5.936568657158599,1595,3712,4,2106757452,macro_retuned,"Mean, reselected temp."

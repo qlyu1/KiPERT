@@ -1,0 +1,4 @@
+comparison,model,reference,metric,model_mean,reference_mean,relative_change_percent,relative_ci_low_percent,relative_ci_high_percent,n_clusters,n_paired_units,groups,bootstrap_seed,proximity_group
+proximity_low,full_retuned,joint_shuffle_mean_retuned,auprc_dg,0.12966886004227215,0.11137358983087715,16.42693769607022,6.25050131631164,29.62187900534123,76,77,5,2256687108,low
+proximity_middle,full_retuned,joint_shuffle_mean_retuned,auprc_dg,0.1570287346641538,0.119376837317214,31.540370974051957,15.737151566766098,56.549881748099516,68,69,5,2275546085,middle
+proximity_high,full_retuned,joint_shuffle_mean_retuned,auprc_dg,0.1991655388985813,0.1475722676822436,34.96135962851072,17.171919243396147,59.93308158113482,76,76,5,2085738916,high

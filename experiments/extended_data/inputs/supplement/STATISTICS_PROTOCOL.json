@@ -1,0 +1,11 @@
+{
+  "bootstrap": 2000,
+  "seed": 20261117,
+  "uncertainty": "Pointwise paired cluster percentile intervals conditional on frozen predictions; no retraining or biological-replicate uncertainty",
+  "direction": "Positive effect means named baseline better; lower-is-better metrics are sign-reversed",
+  "single_aggregation": "Mean contexts within target/split, mean splits within target, mean targets within dataset, macro equal datasets",
+  "double_aggregation": "Mean contexts within pair/fold, mean pairs within fold, mean folds; nMSE20 ratio within each fold then mean folds",
+  "transfer_aggregation": "Mean perturbations within context, macro equal four contexts; resample perturbation clusters jointly across contexts",
+  "missing": "Secondary metrics paired complete-case within each comparison; denominators saved; direction DE with no observed DE is 0 to match current manuscript",
+  "p_values": "Not reported; intervals are pointwise, not simultaneous"
+}
