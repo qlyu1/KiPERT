@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the KiPERT manuscript when referring to this research."
+title: "KiPERT predicts responses to single- and double-gene perturbations and transfers perturbation effects across cell lines"
+type: software
+version: "0.1.0"
+authors:
+  - family-names: Liang
+    given-names: Qiantong
+  - family-names: Wang
+    given-names: Yi
+  - family-names: Lyu
+    given-names: Qing Rex

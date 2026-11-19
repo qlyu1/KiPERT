@@ -1,0 +1,142 @@
+{
+  "model": "TxPert public cross-cell GAT; local PIE-protocol adaptation",
+  "repo": "https://github.com/valence-labs/TxPert",
+  "commit": "08d82eea86746b044cf7531f4ec8c5f60e1cb73f",
+  "graph_blob_sha1": "eaa33480475b20c190279bcf21690672b3c44f75",
+  "graph_sha256": "55d312f8d6186078eb00a7caf108ef731cd27aa08a5b48de59cd0333f0206404",
+  "original_graph_vocabulary": 9853,
+  "added_input_nodes": [
+    "AC118549.1",
+    "C18orf21",
+    "C19orf53",
+    "C7orf26",
+    "FAU",
+    "SEM1"
+  ],
+  "control_index": -1,
+  "graph_edges": 189445,
+  "genes": 6642,
+  "seed": 1,
+  "training": {
+    "optimizer": "AdamW",
+    "lr": 0.0003,
+    "weight_decay": 0,
+    "batch_size": 64,
+    "max_updates": 50000,
+    "warmup_updates": 3125,
+    "schedule": "linear 0.1 to 1 warmup then cosine to zero",
+    "validation_every": 500,
+    "selection": "maximum source-validation mean PearsonDelta, across conditions then equal source contexts",
+    "early_stopping_patience_evaluations": 20,
+    "minimum_updates": 10000,
+    "targets": "conditional residual means; sample perturbations proportional to number of authorized training cells, including all controls",
+    "loss_equivalence": "For no-basal additive model with MSE, E||prediction-r||\u00b2=||prediction-E[r|pert]||\u00b2+constant. Conditional label-batch distribution and decoder BatchNorm/Dropout retained; lower gradient variance; same expected objective. Updates are not claimed to replicate the author training trajectory.",
+    "control_matching": "mean control within context and gem_group; control training target zero; all four backgrounds control-only available",
+    "checkpoint_weights": "random initialization; no public learned weights reused"
+  },
+  "evaluation": "same frozen additive-to-500-heldout-controls adapter and PIE/gpudge settings as UC/PMean; all 6642 genes and exact existing folds",
+  "public_checkpoint_exclusion": "only K562 released, different source train/validation split and 3352-output genes; overlaps PIE source validation labels",
+  "split_audit": {
+    "k562": {
+      "train": {
+        "hepg2": 797,
+        "jurkat": 905,
+        "rpe1": 901
+      },
+      "val": {
+        "hepg2": 89,
+        "jurkat": 101,
+        "rpe1": 100
+      },
+      "test": {
+        "k562": 884
+      }
+    },
+    "hepg2": {
+      "train": {
+        "jurkat": 913,
+        "k562": 834,
+        "rpe1": 923
+      },
+      "val": {
+        "jurkat": 102,
+        "k562": 93,
+        "rpe1": 103
+      },
+      "test": {
+        "hepg2": 867
+      }
+    },
+    "rpe1": {
+      "train": {
+        "hepg2": 794,
+        "jurkat": 913,
+        "k562": 843
+      },
+      "val": {
+        "hepg2": 88,
+        "jurkat": 102,
+        "k562": 94
+      },
+      "test": {
+        "rpe1": 983
+      }
+    },
+    "jurkat": {
+      "train": {
+        "hepg2": 784,
+        "k562": 829,
+        "rpe1": 913
+      },
+      "val": {
+        "hepg2": 87,
+        "k562": 92,
+        "rpe1": 101
+      },
+      "test": {
+        "jurkat": 978
+      }
+    }
+  },
+  "summary_checks": [
+    {
+      "context": "k562",
+      "targets": 1314,
+      "controls": 10691,
+      "batches": 48,
+      "mse_identity_error": 0.0,
+      "gradient_identity_error": 1.3552527156068805e-19
+    },
+    {
+      "context": "hepg2",
+      "targets": 1253,
+      "controls": 4976,
+      "batches": 56,
+      "mse_identity_error": 2.7755575615628914e-17,
+      "gradient_identity_error": 6.776263578034403e-20
+    },
+    {
+      "context": "rpe1",
+      "targets": 1453,
+      "controls": 11485,
+      "batches": 56,
+      "mse_identity_error": 0.0,
+      "gradient_identity_error": 9.486769009248164e-20
+    },
+    {
+      "context": "jurkat",
+      "targets": 1439,
+      "controls": 12013,
+      "batches": 55,
+      "mse_identity_error": 2.7755575615628914e-17,
+      "gradient_identity_error": 8.131516293641283e-20
+    }
+  ],
+  "source_hashes": {
+    "gspp/models/txpert.py": "0caefad613d2608cf221a4f5e27516da91d931bc6139dda05db1719d97731d34",
+    "gspp/models/pert_models/basic_gnn.py": "ea20e7e6e3643786efbf90475e7e7d1395527f01f473ee1d03d714ccaf234525",
+    "gspp/data/graphmodule.py": "018d66c58de0b7391e7da79d45e5fdf0897ee616c66d720c1323d19a0e3098d6",
+    "configs/config-x-cell-gat.yaml": "36c11ed5e188301c699ba2ef853493808683368f9a94f8005c857ac3e4396048"
+  },
+  "created_at": "2026-11-07 15:43:46 +0800"
+}
