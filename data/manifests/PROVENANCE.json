@@ -1,0 +1,24 @@
+{
+  "source": "KiPERT single-perturbation prior preparation",
+  "inputs": {
+    "@STUDY@/uc_fig2_extension_20260930/assets/priors/hgnc_complete_set.txt": "6a1423507780773fbcb373eaef84dba5f9357b36e7219db2aeaae13d8a42d62b",
+    "@STUDY@/uc_fig2_benchmark_20260911/experiments/uc_10context_8prior_20261031/priors/Reactome_sets.json": "e16531899ee6c004b618fbcab23e18d4953e1081288041581b8b7a551e06f1ce",
+    "@STUDY@/uc_fig2_benchmark_20260911/experiments/uc_10context_8prior_20261031/priors/GO_BP_sets.json": "646025a2491c9b73d7b9a0e6bcbc9be84620e4a83603a3d13711dc3e580a6348",
+    "@STUDY@/uc_fig2_benchmark_20260911/experiments/uc_10context_8prior_20261031/priors/CORUM_sets.json": "7cb7855a31110e0c5cd0a4f2cf764eb5c6facc4c78f9e89baa7347555666da87",
+    "@STUDY@/uc_fig2_benchmark_20260911/experiments/uc_10context_8prior_20261031/priors/CollecTRI_sets.json": "20b9b72874602ef668faf8f4db6c6c8f2442fe9c6cf3853df9be4d9e06d260a1",
+    "@STUDY@/uc_fig2_benchmark_20260911/experiments/uc_10context_8prior_20261031/priors/GO_human.gaf.gz": "76f91086e0633ad3d25b20f651237bee231f8eab150e4503b0e7b49d1ea814f5",
+    "@STUDY@/uc_fig2_benchmark_20260911/experiments/uc_state_specificity_20261101/priors/HPO_genes_to_phenotype.txt": "507a17bff9c49e6329fbd88b1f91734fa7e9fdea5c06304044c0892eb6ab248c",
+    "@STUDY@/uc_fig2_benchmark_20260911/experiments/uc_state_specificity_20261101/priors/WikiPathways.gmt": "09ef525557e81a524e3bb2dc59e6727564731ab70bba14ea11e3e01a20a4d3af",
+    "@STUDY@/uc_fig2_benchmark_20260911/experiments/uc_10context_8prior_20261031/priors/HPA_features.npz": "9262a0c2d66ef670cb5cc3e5940ffae804eaa31e955268b8be1bbf90b990b82d",
+    "@STUDY@/autodl-fs/kipert_double_priors_20261106/input_banks/D1.npz": "2eceb4c52e19afa6f4eec8676aede4297ad8ef38bf431d5c7f73e1f5c2139766",
+    "@STUDY@/autodl-fs/kipert_double_priors_20261106/input_banks/D2.npz": "fbcb304ae0cf2bc0ad8530578f37b24acd4510177f414798271c0184b996abe3",
+    "@STUDY@/autodl-fs/kipert_double_priors_20261106/input_banks/D3.npz": "f41873b0e85367f3550f69671c911186b7e64d7443959b17dffef8c1c81add84",
+    "@STUDY@/autodl-fs/kipert_double_priors_20261106/input_banks/D4.npz": "6012515a9620bf2e994129325e8ce02dc59a9fb97390defb6bb4dbc20f7dcf81"
+  },
+  "datasets": [
+    "D1",
+    "D2",
+    "D3",
+    "D4"
+  ]
+}

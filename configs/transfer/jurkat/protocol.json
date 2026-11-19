@@ -1,0 +1,75 @@
+{
+  "utc": "2026-11-01T17:39:24.790497+00:00",
+  "parent": "@STUDY@/uc_fig2_benchmark_20260911/experiments/uc_state_observed_noshrink_adaptive_20261102",
+  "folds": {
+    "rpe1": [
+      "k562",
+      "hepg2",
+      "jurkat"
+    ],
+    "jurkat": [
+      "k562",
+      "hepg2",
+      "rpe1"
+    ],
+    "k562": [
+      "hepg2",
+      "rpe1",
+      "jurkat"
+    ],
+    "hepg2": [
+      "k562",
+      "rpe1",
+      "jurkat"
+    ]
+  },
+  "fixed": {
+    "identity_strength": 0.0,
+    "prior_count": 12,
+    "prior_weight": 0.08333333333333333,
+    "gene_dimension": 512,
+    "independent_source_fits": true,
+    "rho": 1.0,
+    "ot_dimension": 128,
+    "ot_basis": "same exact pair-control PCA prefixes",
+    "ot_strength": 1.0,
+    "amplitude_scale": 1.0,
+    "output_clip": null,
+    "impute_unmeasured_sources": false,
+    "measured_sources_only": true,
+    "covariance_shrinkage": 0.0,
+    "relative_posterior_variance_weighting": true
+  },
+  "design": "PIE_EXACT_TRAIN_PAIRS_6642_GENES",
+  "temperature_grid": [
+    0.03125,
+    0.0625,
+    0.125,
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0,
+    null
+  ],
+  "no_imputation": "Only measured sources receive nonzero weight. If no source measured a query, return exactly zero response / target control mean. Never silently restore GP imputation.",
+  "adaptive_temperature": "For each target task, compare temperatures by leave-one-source-context-out validation. Held validation-context weights are softmax[-(D_context_to_outer_target-minD)/ell], computed ONLY from outer-target and allowed-source controls with the existing variance-weighted distance and source-source median scale. Each source-validation query pool includes ALL held-source targets, including unsupported queries. Thus temperature selection depends on target controls and the allowed source pool, never on outer-target perturbation responses.",
+  "source_scoring": "No output clipping in source validation or prediction. NMSE on all held-source targets including unsupported cases; fixed256-candidate128-query L1/L2 panels. Existing target-control-conditioned source-validation weights retained.",
+  "selection": "Retune temperature for this observed-only/no-shrinkage/no-clip model: maximize target-conditioned source-validation mean(L1,L2) subject NMSE <=1.05 times its own fixedT.25 baseline. Tie-break lower NMSE then larger temperature.",
+  "primary_model": "Use observed-source responses only, zero covariance shrinkage, relative posterior variance weighting, target-adaptive temperature, no output clip.",
+  "target_evaluation": "All PIE test rows; 6642 ordered genes; frozen published PIE scorer",
+  "numeric_guard": "No-shrink OT uses sample covariance with only existing eigen floor1e-8 for numerical safety; record whether floor is activated. The same frozen128D control basis is used by both shrinkage conditions.",
+  "basis_sha256": "364980f1f3a33f138ef499be5608df0363026dff0992a8cf007e775892101c78",
+  "seed": 20261101,
+  "gp_role": "Each source GP is retained for relative posterior variance. Point predictions are observed mean responses; unknown-source values and weights are zero. Gene priors influence reliability weights, not unmeasured response generation.",
+  "historical_folds": [],
+  "new_folds": [
+    "hepg2",
+    "jurkat",
+    "k562",
+    "rpe1"
+  ],
+  "data_source": "@STUDY@/uc_cross_context_transfer/experiments/pie_four_context_reproduction_20261106/downloads/official_data/preprocessed",
+  "input_alignment": "@STUDY@/uc_cross_context_transfer/experiments/pie_uc_state_benchmark_20261106/reports/raw_panel_control_alignment.json"
+}

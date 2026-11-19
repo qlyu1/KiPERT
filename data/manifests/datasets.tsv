@@ -1,0 +1,16 @@
+dataset	file_or_subset	source	url	checksum	bytes
+S3	TianKampmann2021_CRISPRi.h5ad	scPerturb 1.4	https://zenodo.org/api/records/13350497/files/TianKampmann2021_CRISPRi.h5ad/content	md5:70d260cf5587fc09d759b9f3e32785c6	289389479
+S4	TianKampmann2021_CRISPRa.h5ad	scPerturb 1.4	https://zenodo.org/api/records/13350497/files/TianKampmann2021_CRISPRa.h5ad/content	md5:67a9b324ce46b74a8ca09370de45ded6	154788473
+S5	AdamsonWeissman2016_GSM2406681_10X010.h5ad	scPerturb 1.4	https://zenodo.org/api/records/13350497/files/AdamsonWeissman2016_GSM2406681_10X010.h5ad/content	md5:2fa44ea61a8dd35742af618638ec65fc	471286951
+S6	NormanWeissman2019_filtered.h5ad	scPerturb 1.4	https://zenodo.org/api/records/13350497/files/NormanWeissman2019_filtered.h5ad/content	md5:c870e6967d91c017d9da827bab183cd6	698680199
+S7	FrangiehIzar2021_RNA.h5ad	scPerturb 1.4	https://zenodo.org/api/records/13350497/files/FrangiehIzar2021_RNA.h5ad/content	md5:dc438f53c476a3dd562898654d48ed15	1458928348
+D1	Norman held-out combinations	Norman et al.	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE133344		
+D2	Replogle exp6	GSM4367984	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4367984		
+D3	Wessels lane L4	Wessels et al.; GSE213957; lane L4	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE213957		
+D4	Dixit K562 high-MOI	Dixit et al.; GSM2396860; high-MOI	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2396860		
+PIE	Replogle–Nadig essential-gene profiles	PIE	https://huggingface.co/datasets/arcinstitute/PIE_replogle_nadig_essential		
+PIE-splits	replogle_wdataset/unseen_ctx	PIE	https://huggingface.co/datasets/arcinstitute/PIE_splits		
+Cai-D14	day14_features.tsv.gz	Zenodo 19185135	https://zenodo.org/records/19185135/files/day14_features.tsv.gz	md5:5f7cf1f4fe527750a568a96f4f69f3d9	164918
+Cai-D14	day14_metadata.csv	Zenodo 19185135	https://zenodo.org/records/19185135/files/day14_metadata.csv	md5:b56d0ad958ef9a264783ad3c395d4408	12235163
+Cai-D14	day14_barcodes.tsv.gz	Zenodo 19185135	https://zenodo.org/records/19185135/files/day14_barcodes.tsv.gz	md5:a99d6d558d32b99ec1b3d6ceafa6571c	186886
+Cai-D14	day14_matrix.mtx.gz	Zenodo 19185135	https://zenodo.org/records/19185135/files/day14_matrix.mtx.gz	md5:92a54ce516e5a044acbef7f27186ea2e	824261016

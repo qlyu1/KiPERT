@@ -1,0 +1,181 @@
+{
+  "scope": "All five datasets and three original splits; within-context unseen single perturbation",
+  "candidates": [
+    {
+      "id": "uniform_raw_a0.01_g1",
+      "family": "uniform_raw",
+      "kernel": "uniform",
+      "head": "raw",
+      "alpha": 0.01,
+      "gain": 1.0
+    },
+    {
+      "id": "uniform_raw_a0.1_g1",
+      "family": "uniform_raw",
+      "kernel": "uniform",
+      "head": "raw",
+      "alpha": 0.1,
+      "gain": 1.0
+    },
+    {
+      "id": "uniform_raw_a1_g1",
+      "family": "uniform_raw",
+      "kernel": "uniform",
+      "head": "raw",
+      "alpha": 1.0,
+      "gain": 1.0
+    },
+    {
+      "id": "uniform_direction_a0.01_g1",
+      "family": "uniform_direction",
+      "kernel": "uniform",
+      "head": "direction",
+      "alpha": 0.01,
+      "gain": 1.0
+    },
+    {
+      "id": "uniform_direction_a0.01_g2",
+      "family": "uniform_direction",
+      "kernel": "uniform",
+      "head": "direction",
+      "alpha": 0.01,
+      "gain": 2.0
+    },
+    {
+      "id": "uniform_direction_a0.1_g1",
+      "family": "uniform_direction",
+      "kernel": "uniform",
+      "head": "direction",
+      "alpha": 0.1,
+      "gain": 1.0
+    },
+    {
+      "id": "uniform_direction_a0.1_g2",
+      "family": "uniform_direction",
+      "kernel": "uniform",
+      "head": "direction",
+      "alpha": 0.1,
+      "gain": 2.0
+    },
+    {
+      "id": "uniform_direction_a1_g1",
+      "family": "uniform_direction",
+      "kernel": "uniform",
+      "head": "direction",
+      "alpha": 1.0,
+      "gain": 1.0
+    },
+    {
+      "id": "uniform_direction_a1_g2",
+      "family": "uniform_direction",
+      "kernel": "uniform",
+      "head": "direction",
+      "alpha": 1.0,
+      "gain": 2.0
+    },
+    {
+      "id": "aligned_raw_a0.01_g1",
+      "family": "aligned_raw",
+      "kernel": "aligned",
+      "head": "raw",
+      "alpha": 0.01,
+      "gain": 1.0
+    },
+    {
+      "id": "aligned_raw_a0.1_g1",
+      "family": "aligned_raw",
+      "kernel": "aligned",
+      "head": "raw",
+      "alpha": 0.1,
+      "gain": 1.0
+    },
+    {
+      "id": "aligned_raw_a1_g1",
+      "family": "aligned_raw",
+      "kernel": "aligned",
+      "head": "raw",
+      "alpha": 1.0,
+      "gain": 1.0
+    },
+    {
+      "id": "aligned_direction_a0.01_g1",
+      "family": "aligned_direction",
+      "kernel": "aligned",
+      "head": "direction",
+      "alpha": 0.01,
+      "gain": 1.0
+    },
+    {
+      "id": "aligned_direction_a0.01_g2",
+      "family": "aligned_direction",
+      "kernel": "aligned",
+      "head": "direction",
+      "alpha": 0.01,
+      "gain": 2.0
+    },
+    {
+      "id": "aligned_direction_a0.1_g1",
+      "family": "aligned_direction",
+      "kernel": "aligned",
+      "head": "direction",
+      "alpha": 0.1,
+      "gain": 1.0
+    },
+    {
+      "id": "aligned_direction_a0.1_g2",
+      "family": "aligned_direction",
+      "kernel": "aligned",
+      "head": "direction",
+      "alpha": 0.1,
+      "gain": 2.0
+    },
+    {
+      "id": "aligned_direction_a1_g1",
+      "family": "aligned_direction",
+      "kernel": "aligned",
+      "head": "direction",
+      "alpha": 1.0,
+      "gain": 1.0
+    },
+    {
+      "id": "aligned_direction_a1_g2",
+      "family": "aligned_direction",
+      "kernel": "aligned",
+      "head": "direction",
+      "alpha": 1.0,
+      "gain": 2.0
+    },
+    {
+      "id": "aligned_neighbors_k3",
+      "family": "aligned_neighbors",
+      "kernel": "aligned",
+      "head": "neighbors",
+      "k": 3
+    },
+    {
+      "id": "aligned_neighbors_k10",
+      "family": "aligned_neighbors",
+      "kernel": "aligned",
+      "head": "neighbors",
+      "k": 10
+    },
+    {
+      "id": "aligned_neighbors_k30",
+      "family": "aligned_neighbors",
+      "kernel": "aligned",
+      "head": "neighbors",
+      "k": 30
+    }
+  ],
+  "baseline": "Original frozen UC; raw uniform KRR is a distinct full-response control",
+  "alignment": "Train-only positive off-diagonal centred kernel alignment to unit-residual response geometry excluding all panel target genes; weights=0.5*uniform+0.5*normalized_positive_alignment; no held labels",
+  "direction": "Train centred response rows normalized to median training residual norm, then centred again; no predicted-direction renormalization; gains1/2",
+  "neighbors": "Top3/10/30 cosine prior neighbors; softmax temperature0.1; transfer measured training residuals",
+  "validation_objective": "Maximize average L2/Cosine PDS; ties by structural Spearman, specific Pearson, smaller expression RMSE, candidate ID",
+  "safe_constraints": "Expression RMSE <=1.01 baseline; both PDS, specific Pearson, DEG AP and structural Spearman >=baseline; matrix RMSE <=baseline. Undefined necessary baseline metric retains baseline; undefined candidate fails.",
+  "safe_stability": "Among constrained nonbaseline candidates select maximal 10th percentile of 2000 target-cluster bootstrap paired mean PDS gains; require >0. This is a selection heuristic, not multiplicity-adjusted significance.",
+  "diagnostic_arms": "Also freeze best candidate of EACH of five families by validation objective, irrespective of safe gates; evaluate all and report tradeoffs. Diagnostic arms are not approved replacements.",
+  "freeze": "All selections and refit predictions sealed before loading any test truth",
+  "prior_task_constraints": "Same masks, control references, gene axes, data splits and comparator predictions. Shared-centred Pearson uses equal-target fit-only reference; DEG AP, not nonlinear AUPRC.",
+  "status": "RETROSPECTIVE_PROTOCOL_DEFINED_BEFORE_NEW_RUN"
+}

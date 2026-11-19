@@ -1,0 +1,60 @@
+{
+  "impute": false,
+  "precision": true,
+  "shrinkage": 0.0,
+  "temperature": 0.0625,
+  "output_clip": null,
+  "identity_strength": 0.0,
+  "gene_dimension": 512,
+  "prior_weight": 0.08333333333333333,
+  "ot_dimension": 128,
+  "rho": 1.0,
+  "source_models": {
+    "k562": "@STUDY@/autodl-fs/data/pie_uc_state_benchmark_20261106/runs/uc/jurkat/cache/gp/a0/k562",
+    "hepg2": "@STUDY@/autodl-fs/data/pie_uc_state_benchmark_20261106/runs/uc/jurkat/cache/gp/a0/hepg2",
+    "rpe1": "@STUDY@/autodl-fs/data/pie_uc_state_benchmark_20261106/runs/uc/jurkat/cache/gp/a0/rpe1"
+  },
+  "shared_gene_basis": "@STUDY@/autodl-fs/data/pie_uc_state_benchmark_20261106/runs/uc/jurkat/shared_gene_basis.npz",
+  "basis_sha256": "364980f1f3a33f138ef499be5608df0363026dff0992a8cf007e775892101c78",
+  "source_selection": {
+    "id": "UC_observed_no_shrink_adaptive",
+    "temperature": 0.0625,
+    "cases": [
+      {
+        "target": "k562",
+        "nmse": 1.8249980347276367,
+        "rank_l1": 0.715179443359375,
+        "rank_l2": 0.749786376953125,
+        "rank_score": 0.73248291015625
+      },
+      {
+        "target": "hepg2",
+        "nmse": 1.15503507453115,
+        "rank_l1": 0.752532958984375,
+        "rank_l2": 0.767974853515625,
+        "rank_score": 0.76025390625
+      },
+      {
+        "target": "rpe1",
+        "nmse": 0.9163349041236746,
+        "rank_l1": 0.62591552734375,
+        "rank_l2": 0.64727783203125,
+        "rank_score": 0.6365966796875
+      }
+    ],
+    "weighted": {
+      "nmse": 1.3674970101920307,
+      "rank_l1": 0.6984359027115267,
+      "rank_l2": 0.7238050361934363,
+      "rank_score": 0.7111204694524815
+    },
+    "unweighted": {
+      "nmse": 1.2987893377941537,
+      "rank_l1": 0.6978759765625,
+      "rank_l2": 0.7216796875,
+      "rank_score": 0.70977783203125
+    },
+    "constraint_feasible": true,
+    "nmse_cap": 1.3775576934745521
+  }
+}

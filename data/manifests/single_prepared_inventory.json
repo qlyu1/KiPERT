@@ -1,0 +1,1442 @@
+[
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split101/fit/expression.npz",
+    "bytes": 79492158,
+    "sha256": "de7cc82881240c1740b7051c103e29c919566184cf73385b6cc507e7c3cc82e5"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split101/fit/metadata.tsv",
+    "bytes": 506731,
+    "sha256": "f6a95c9c31ca2fc249d5dcd16aeb44dae1a4226ee2ee983ad690c149bcbd0e16"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split101/validation/expression.npz",
+    "bytes": 10399889,
+    "sha256": "4cb866022d6a3dd6207110c610595acc1437ebfba4b8b03eba9d524a9dfc322f"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split101/validation/metadata.tsv",
+    "bytes": 66954,
+    "sha256": "7ff034a77b7b4bba0a29b745ec92fb29a9423efad652db79c256d579b8480420"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split101/controls_fit/expression.npz",
+    "bytes": 3421442,
+    "sha256": "45f068ddaf1ada414386a58bc3d40f42571b18a5004d5e54f1666d2924c265db"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split101/controls_fit/metadata.tsv",
+    "bytes": 24385,
+    "sha256": "4276ab7a92a6333d7492849eb33a5c5a4e77fc354eaafef558a12c24731fc22b"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split101/query/metadata.tsv",
+    "bytes": 1012,
+    "sha256": "7b38f46fb7689575ee83fc812861786ebeecdb912f37debdcfabd030534c9071"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split101/genes.tsv",
+    "bytes": 488370,
+    "sha256": "182575b736724f080d1802ce05a9e8d02ac7a2b16c2ff361567c22f2ccb8622d"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split101/target_prior_mapping.tsv",
+    "bytes": 3846,
+    "sha256": "081e638992f58b30f0ba842af8dccbe339c14345224a745d6987c761307c5481"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split202/fit/expression.npz",
+    "bytes": 75420745,
+    "sha256": "a2e6b2789f302c89988c3abd216cb5e633df4fd493626d2ad87134322911207e"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split202/fit/metadata.tsv",
+    "bytes": 483405,
+    "sha256": "3fb689f8910fa082e6b0c228d56ac0cd841505b366f7bea9d6fe0dfab88c0e89"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split202/validation/expression.npz",
+    "bytes": 10358276,
+    "sha256": "4d4379025e9a442c83a399c0b94cefbbff9fd81bef4ad0f134a32a4c91696388"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split202/validation/metadata.tsv",
+    "bytes": 66641,
+    "sha256": "25735c24fb39a8b82d182c39cef94a6ac05fb5c5b66fa39198f1bf6895e2748a"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split202/controls_fit/expression.npz",
+    "bytes": 3421628,
+    "sha256": "611bf89d331f05131b8080c6b9b4df6748ed34180cf82ff7a226fa825d7a3f6e"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split202/controls_fit/metadata.tsv",
+    "bytes": 24385,
+    "sha256": "4276ab7a92a6333d7492849eb33a5c5a4e77fc354eaafef558a12c24731fc22b"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split202/query/metadata.tsv",
+    "bytes": 1253,
+    "sha256": "75326db67eed58708e077204c065110867bfd86ac1a3f2bd6ed0062a2e0193fd"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split202/genes.tsv",
+    "bytes": 487119,
+    "sha256": "a8548a5b670a6f7a8e06c5b12eedb93ec3af44cfd799b0951055f157488fa574"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split202/target_prior_mapping.tsv",
+    "bytes": 3846,
+    "sha256": "081e638992f58b30f0ba842af8dccbe339c14345224a745d6987c761307c5481"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split303/fit/expression.npz",
+    "bytes": 75069041,
+    "sha256": "f60042acaa0ec744b52eabf1c5b03b8934e89636370b381b46cdeb5f90f4c8d2"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split303/fit/metadata.tsv",
+    "bytes": 479837,
+    "sha256": "850314b7f1a1ff88d39113378b97734da9f9d91a466ede2f74f8c72391284a55"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split303/validation/expression.npz",
+    "bytes": 11150683,
+    "sha256": "7cc90d79c1dbcb58a3d1f8cfc89e25c8e29206048829c6e2c8b0a761c5f122f5"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split303/validation/metadata.tsv",
+    "bytes": 72226,
+    "sha256": "c3cae09f74cc52eb9a52a85825f093b1451e6581a316f0198c8309ba2c5a6eff"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split303/controls_fit/expression.npz",
+    "bytes": 3422122,
+    "sha256": "1eeacd80e42dabde4f2713ed396a728686dbf670f57128ebc44af1a8dfc8a17d"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split303/controls_fit/metadata.tsv",
+    "bytes": 24385,
+    "sha256": "4276ab7a92a6333d7492849eb33a5c5a4e77fc354eaafef558a12c24731fc22b"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split303/query/metadata.tsv",
+    "bytes": 1266,
+    "sha256": "2ab22eff6a8c0f62617631b5bb50d52aca909c10b050cc1904a7c36da59c6a49"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split303/genes.tsv",
+    "bytes": 486489,
+    "sha256": "ca07ee9b8346aa6c74014df05c829ce430ff422727f4008c7c3b05ddca0ac057"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S3/split303/target_prior_mapping.tsv",
+    "bytes": 3846,
+    "sha256": "081e638992f58b30f0ba842af8dccbe339c14345224a745d6987c761307c5481"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split101/fit/expression.npz",
+    "bytes": 98397977,
+    "sha256": "63f38f2f0941d13b1d493a7a941deaaae8553dfa39c2240a2cb9d900ef5c9313"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split101/fit/metadata.tsv",
+    "bytes": 762394,
+    "sha256": "724530e14fe9367fae262812fc5e90fb03f0059bd3b19a9515ce322ec6c72d3e"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split101/validation/expression.npz",
+    "bytes": 15546193,
+    "sha256": "c94f0a2c7be4d1324dd4bf33fa1a14b2e129de13214612084de1b979557ccfd0"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split101/validation/metadata.tsv",
+    "bytes": 119611,
+    "sha256": "2cc4cc90a6c61a9a874e30307196de39416f7b27069e78b67c281e1b5d22b1f5"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split101/controls_fit/expression.npz",
+    "bytes": 2745868,
+    "sha256": "404f0984db0604582fdd8d68839b0d38b64dea39f65d191bcc17193dcde5f088"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split101/controls_fit/metadata.tsv",
+    "bytes": 21335,
+    "sha256": "4b214208111d756686be9e4d21785bfeba64791efb299ffea8ec788fa5c2f8ed"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split101/query/metadata.tsv",
+    "bytes": 1099,
+    "sha256": "13fc77a600a6f333819fbd0f39bd30fa55c9f290f6ec3b570eb81ccce727744d"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split101/genes.tsv",
+    "bytes": 498596,
+    "sha256": "b41ef699c47477c780dcd4e23756bdd6162509ee34eb655c8de47bd61257a880"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split101/target_prior_mapping.tsv",
+    "bytes": 3706,
+    "sha256": "09e6ae3eae32077108709a7c50fbb551541f99da02877ccbf70ed8c25a0d5fa4"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split202/fit/expression.npz",
+    "bytes": 106061082,
+    "sha256": "19997ff92cd72f299ab27e46a5a127b665a62cdebdb4f5971a210cd39c18a3e5"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split202/fit/metadata.tsv",
+    "bytes": 822952,
+    "sha256": "03b7ded7121016be3d39cadf7b3faf8cf88c7972252cd667a4caa693ffc41226"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split202/validation/expression.npz",
+    "bytes": 12841705,
+    "sha256": "351f293600d9ed4bf1c6d5ed57414499fa93df5ce09c44d2bd4edbd499a451e2"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split202/validation/metadata.tsv",
+    "bytes": 97578,
+    "sha256": "39ea3daa6f19aa5648c5905e87b582793c0c8df33d9029af2380d01e835fd561"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split202/controls_fit/expression.npz",
+    "bytes": 2746588,
+    "sha256": "7790281c7122ae86cc34daeb2640a45a0cce80623cb05a9bda3073730c3c3497"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split202/controls_fit/metadata.tsv",
+    "bytes": 21335,
+    "sha256": "4b214208111d756686be9e4d21785bfeba64791efb299ffea8ec788fa5c2f8ed"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split202/query/metadata.tsv",
+    "bytes": 1065,
+    "sha256": "7660bbc6608a9cd7c587cfd52b549b993090a0424b959202c3e46e72dbb71946"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split202/genes.tsv",
+    "bytes": 500543,
+    "sha256": "8067366bfe7677199c997ddd57f93305e29965718c4a6911f44675e8c221ac30"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split202/target_prior_mapping.tsv",
+    "bytes": 3706,
+    "sha256": "09e6ae3eae32077108709a7c50fbb551541f99da02877ccbf70ed8c25a0d5fa4"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split303/fit/expression.npz",
+    "bytes": 104911102,
+    "sha256": "fb2257a24cc5f914d376db92d3382e48a0f52b8f2cadbbc8da4dab4557a676bf"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split303/fit/metadata.tsv",
+    "bytes": 812751,
+    "sha256": "387e9a8c87d8dc2d4141ea58cc652d21e05acc69409bf601562c71e464c65dc6"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split303/validation/expression.npz",
+    "bytes": 11651230,
+    "sha256": "141f9ef249e5ab17794a7d521b5964bc4a689292f3e355a8a13a536e9694077f"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split303/validation/metadata.tsv",
+    "bytes": 90319,
+    "sha256": "194a1ee9397d24a0601a6caa81eb6af5cd7b4e613a6e85406152c970e9602d93"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split303/controls_fit/expression.npz",
+    "bytes": 2746675,
+    "sha256": "258ab28f2cb6687f60d4cd3b36ae2c3eef79a31d64facd903f2e44806f63fd6c"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split303/controls_fit/metadata.tsv",
+    "bytes": 21335,
+    "sha256": "4b214208111d756686be9e4d21785bfeba64791efb299ffea8ec788fa5c2f8ed"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split303/query/metadata.tsv",
+    "bytes": 1121,
+    "sha256": "595e2b03a4e44b4d25d11f8bd0c93c7764b13be3a78a0d743af447c48838cf29"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split303/genes.tsv",
+    "bytes": 500595,
+    "sha256": "d14bea7fe98ab30fb5844c0125d242780ae0a24980b6ef04473f190a8d5f9832"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S4/split303/target_prior_mapping.tsv",
+    "bytes": 3706,
+    "sha256": "09e6ae3eae32077108709a7c50fbb551541f99da02877ccbf70ed8c25a0d5fa4"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split101/fit/expression.npz",
+    "bytes": 217473428,
+    "sha256": "92bdc44b1686e278609100a50c31d9034e6e8c6231a2095261688251ed565dc1"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split101/fit/metadata.tsv",
+    "bytes": 2263236,
+    "sha256": "bae1654619854bab4c04f15e00d6c382a1d228cfb5afc012f6e96bf6530400fc"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split101/validation/expression.npz",
+    "bytes": 48341558,
+    "sha256": "7c56653e4ec3d5787fdb3f91a490bf95a5413f1f617bbfa4c49185a696a042a3"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split101/validation/metadata.tsv",
+    "bytes": 504863,
+    "sha256": "b453be5126e96705de182461550bce25a197a0f22687d6b8cf65a86ff05f4298"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split101/controls_fit/expression.npz",
+    "bytes": 46848743,
+    "sha256": "50b2a94e7f5187f707c4ccb63cca6ace43a4bbd08fb17d3b30fb14a3cf9dcfc6"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split101/controls_fit/metadata.tsv",
+    "bytes": 456799,
+    "sha256": "6955b1a86d0daf537c16c28efecc76018cc4b6f1f050b086cd0538e9260e8d4d"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split101/query/metadata.tsv",
+    "bytes": 816,
+    "sha256": "1bc9e1cfca470612764c8a4062edc3883119e80a3ef89df9ac621da2b4498323"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split101/genes.tsv",
+    "bytes": 446131,
+    "sha256": "72a87f5a8060da92d53099f5185a6d9889bc523919451a536f64e65a344728f8"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split101/target_prior_mapping.tsv",
+    "bytes": 3464,
+    "sha256": "8a46f26b50acbdd385aa95e365c368e609717cc16c516e46cdaae6478ec9c90f"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split202/fit/expression.npz",
+    "bytes": 218126233,
+    "sha256": "c55efc0fd872d85d8401bcd173970a830a83096721022789608c8778333a17bf"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split202/fit/metadata.tsv",
+    "bytes": 2269376,
+    "sha256": "fb0d6cef6e6625ade9baf9a63a1511b91008b390f03f34f652e00bc866cbc746"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split202/validation/expression.npz",
+    "bytes": 48186314,
+    "sha256": "07ae3cc43e25647d35e431ac9169c3dda09221b7fe35d0f60bc61460e8a73f25"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split202/validation/metadata.tsv",
+    "bytes": 504721,
+    "sha256": "dcafe84743dafda8901e8ad1feb754ac7f847fc30959667584fb4bec44ec4f21"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split202/controls_fit/expression.npz",
+    "bytes": 46861142,
+    "sha256": "67c5ff238b42e9de9d56c4eac4acb05036176f03ee17c13b2fd4258888285d9a"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split202/controls_fit/metadata.tsv",
+    "bytes": 456799,
+    "sha256": "6955b1a86d0daf537c16c28efecc76018cc4b6f1f050b086cd0538e9260e8d4d"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split202/query/metadata.tsv",
+    "bytes": 810,
+    "sha256": "e7597eba6734b6dfc0a504046e097e96e12f17f771b318a1d3264c4ff522a1da"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split202/genes.tsv",
+    "bytes": 445397,
+    "sha256": "9d315daa70a9af77f3eabc336e94f040480735519cb78a8fdce7d946aaac60e6"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split202/target_prior_mapping.tsv",
+    "bytes": 3464,
+    "sha256": "8a46f26b50acbdd385aa95e365c368e609717cc16c516e46cdaae6478ec9c90f"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split303/fit/expression.npz",
+    "bytes": 216026889,
+    "sha256": "68514faa48b27cc82dd272dc60e7a384642384dae90392d5a728f2f8b308efdd"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split303/fit/metadata.tsv",
+    "bytes": 2253220,
+    "sha256": "6317bf580f76a115d8bee921c7a037d4071b59a5c67ef50b701c9447702ce1c5"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split303/validation/expression.npz",
+    "bytes": 40275693,
+    "sha256": "70d649e79d5bed3ac9819538065672727e55d9f87490a317253f4788bb037fe0"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split303/validation/metadata.tsv",
+    "bytes": 424177,
+    "sha256": "f1530de5605c2e1c3175c3984649db48a2d4d721057b5328999e4dc166bb70ac"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split303/controls_fit/expression.npz",
+    "bytes": 46847227,
+    "sha256": "8cfb9370774f01b7f62b1aea43c274f4977c15b8f962e4174ecb4520161d47b1"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split303/controls_fit/metadata.tsv",
+    "bytes": 456799,
+    "sha256": "6955b1a86d0daf537c16c28efecc76018cc4b6f1f050b086cd0538e9260e8d4d"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split303/query/metadata.tsv",
+    "bytes": 816,
+    "sha256": "e88d739d487690224a8446b203d44d1a32b89254c3b79dc93ee976633cfec841"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split303/genes.tsv",
+    "bytes": 445196,
+    "sha256": "6989b1f8bc2c7fd560fadcf810bec38b083d1167600dba3dde56b0c072a6cb8d"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S5/split303/target_prior_mapping.tsv",
+    "bytes": 3464,
+    "sha256": "8a46f26b50acbdd385aa95e365c368e609717cc16c516e46cdaae6478ec9c90f"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split101/fit/expression.npz",
+    "bytes": 249729066,
+    "sha256": "4c57aea4c7350e58a057312614f293a4de2988a513d9a53ac3bed5464af9ef26"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split101/fit/metadata.tsv",
+    "bytes": 3206698,
+    "sha256": "d209c2293903b579cf690104a1c8f217f412555387696d4b0911c84a99d70c07"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split101/validation/expression.npz",
+    "bytes": 28153177,
+    "sha256": "57e1e01e84930bfaff8300f1b9a1304cb65e621678ce8840e0f1e38da898d8fc"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split101/validation/metadata.tsv",
+    "bytes": 376482,
+    "sha256": "25f320899aa5d29606222489b6cf2b0adb819833e049d6ecda72e6cc2b30b21c"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split101/controls_fit/expression.npz",
+    "bytes": 71046570,
+    "sha256": "cc5303ddd3eb6829e178aca104565e8eebc5b47b95ec88d79f0dda16f1d4e2c6"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split101/controls_fit/metadata.tsv",
+    "bytes": 901390,
+    "sha256": "64a8502f14ba618dba0a751bcd7ee45bca85df1036948e93d4fc7e3a06440a14"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split101/query/metadata.tsv",
+    "bytes": 4057,
+    "sha256": "59868b14d64b9bb5ff41c79698eef2f46df854b28a91f29b4d8bfac8fe07adc2"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split101/genes.tsv",
+    "bytes": 466759,
+    "sha256": "829815c1388a72f9470781fccb3fc04aec494f7e30525c4114d5734379b56acf"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split101/target_prior_mapping.tsv",
+    "bytes": 3334,
+    "sha256": "c1b04ffcded4076119311cb4fd83d024407ef3d74327f3f5af446dc767bbd15e"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split202/fit/expression.npz",
+    "bytes": 220203932,
+    "sha256": "50957cafeed660498fccf2ee841d2c595b48bea3aae2826111e959451c2d50f8"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split202/fit/metadata.tsv",
+    "bytes": 2872001,
+    "sha256": "bf3f80b9ceda97e75dde43969dbabe91d616c740e369be0b95b0a551a7e8f482"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split202/validation/expression.npz",
+    "bytes": 39628592,
+    "sha256": "e7e08dfa0d739b5d4235e98adda01fdd0df798cc45ba346e98552ce07df285a9"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split202/validation/metadata.tsv",
+    "bytes": 511611,
+    "sha256": "f1b57a0a1f686ab059c266c8fadd995f66b262478d031fed436708877ad14dc2"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split202/controls_fit/expression.npz",
+    "bytes": 71061092,
+    "sha256": "97dbdbbcaf46bcb2049ffe003b5ab8e4d3b3a76d88f09dfdb2426baf33deca4a"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split202/controls_fit/metadata.tsv",
+    "bytes": 901390,
+    "sha256": "64a8502f14ba618dba0a751bcd7ee45bca85df1036948e93d4fc7e3a06440a14"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split202/query/metadata.tsv",
+    "bytes": 4752,
+    "sha256": "582bf86120ca2ed217072b9cce0156e5080e2b21c8f6db6f7c49dee02f155e89"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split202/genes.tsv",
+    "bytes": 464392,
+    "sha256": "a519288d4f9c3fab25e29e5eb9eedd5e2b0e1553b460ffaca8b976905d45ae09"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split202/target_prior_mapping.tsv",
+    "bytes": 3334,
+    "sha256": "c1b04ffcded4076119311cb4fd83d024407ef3d74327f3f5af446dc767bbd15e"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split303/fit/expression.npz",
+    "bytes": 267465214,
+    "sha256": "58ed3b9ae0a7aa1811231b37c400dd02437a1e1e657d45daeea99ea38c02f698"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split303/fit/metadata.tsv",
+    "bytes": 3457165,
+    "sha256": "e590d529b256458e50825f4811b83d632a17346910104510160f90744ae013a0"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split303/validation/expression.npz",
+    "bytes": 28541904,
+    "sha256": "234f967d1afe5f2c0a678d4874e0b1c9dcf03734ba66ed18496e896af5ce2f98"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split303/validation/metadata.tsv",
+    "bytes": 379089,
+    "sha256": "a212a29dcad1ebc0155c933e488b66608d4535cea9b311e20017ecbd5e416007"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split303/controls_fit/expression.npz",
+    "bytes": 71071484,
+    "sha256": "e0abae0c329636185863e39a8317d16dc9a094d2dedc86eb8d7ce334af3df23c"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split303/controls_fit/metadata.tsv",
+    "bytes": 901390,
+    "sha256": "64a8502f14ba618dba0a751bcd7ee45bca85df1036948e93d4fc7e3a06440a14"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split303/query/metadata.tsv",
+    "bytes": 3583,
+    "sha256": "d3d4f34289c7c5c6811a96e6c2c33441d6d7a296fcfef215efc35d70e8960daf"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split303/genes.tsv",
+    "bytes": 469423,
+    "sha256": "1f9b5d79422fcc8cbb61361f261fb449cccc98ec8d118a2790108371ba8af63e"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S6/split303/target_prior_mapping.tsv",
+    "bytes": 3334,
+    "sha256": "c1b04ffcded4076119311cb4fd83d024407ef3d74327f3f5af446dc767bbd15e"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split101/fit/expression.npz",
+    "bytes": 502307874,
+    "sha256": "68e9112937cab7c94f219dad52a368c93e2da5745933417993dae828e484d0d5"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split101/fit/metadata.tsv",
+    "bytes": 5409150,
+    "sha256": "9a0949b5c6f864c25c2c3fcddca198226ae9bf3abfa1044002c236fc26fc6e0e"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split101/validation/expression.npz",
+    "bytes": 64011630,
+    "sha256": "364b4b6135a8aff122d44bb50776af9a7ba1cf5d8287c0a7ddae8d6daa7c6619"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split101/validation/metadata.tsv",
+    "bytes": 687431,
+    "sha256": "30fde09cdf0ef49c61b65579e57b3b8ce21348ad8abdc94faca9ef1b4b3b6585"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split101/controls_fit/expression.npz",
+    "bytes": 47787949,
+    "sha256": "c2613bd2654e9b38bfb2d9dc24341a093aa9e3881e06a43bb79bdfb8cd2f2d2e"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split101/controls_fit/metadata.tsv",
+    "bytes": 502953,
+    "sha256": "3975f97102ac43291840f65c14ee7a80090107cea572284022cca4fe3bc94faa"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split101/query/metadata.tsv",
+    "bytes": 5629,
+    "sha256": "6bd590afd30730a1ad15e00f939a1247ac5e226afde7ee2e095c3a07511ba82c"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split101/genes.tsv",
+    "bytes": 491129,
+    "sha256": "520b69c39f2b66b090269b764416deebfff1c69db0b83ddf37d9070dd041fd0a"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split101/target_prior_mapping.tsv",
+    "bytes": 8673,
+    "sha256": "8e53dba79a019b6fbf246d93c8d3036995bf0efcbc335fe1c2c3ae524236af29"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split202/fit/expression.npz",
+    "bytes": 499102420,
+    "sha256": "b3e7ff8fd284822220497834e79f58a9c09b33109c3dadcb13dedb9d2462f4f5"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split202/fit/metadata.tsv",
+    "bytes": 5389159,
+    "sha256": "9dcc80046f546aa3116078bc4345f335d6af5178271fab751a56769f1ddd20d9"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split202/validation/expression.npz",
+    "bytes": 77795567,
+    "sha256": "beed72b46bfd525511bda98892e02860c3a2ae72cbd2beb329aa1f445f8648d3"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split202/validation/metadata.tsv",
+    "bytes": 825134,
+    "sha256": "22c801f662ceadd8b78d816d11ae45656ada89a43e0037fd41efc08fed8cda8c"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split202/controls_fit/expression.npz",
+    "bytes": 47783492,
+    "sha256": "9b70a2261d4738f56147193bb0efb8da6c2e49ef2221824b90d4c8858846a13b"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split202/controls_fit/metadata.tsv",
+    "bytes": 502953,
+    "sha256": "3975f97102ac43291840f65c14ee7a80090107cea572284022cca4fe3bc94faa"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split202/query/metadata.tsv",
+    "bytes": 5686,
+    "sha256": "8e808c2066001d35f81a9bdbb3be3a038820b675d55047742b0f61f8fde7529d"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split202/genes.tsv",
+    "bytes": 491288,
+    "sha256": "b5fe29d11feb13caf2240d6af8eedfb0ce020704ce00d56df34ff87910ac887e"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split202/target_prior_mapping.tsv",
+    "bytes": 8673,
+    "sha256": "8e53dba79a019b6fbf246d93c8d3036995bf0efcbc335fe1c2c3ae524236af29"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split303/fit/expression.npz",
+    "bytes": 510143544,
+    "sha256": "3a4f664346c4ae566e252e23005cc970b0cfb3660e873837061ad18cc9abf401"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split303/fit/metadata.tsv",
+    "bytes": 5492299,
+    "sha256": "4be11080d8239c177c4796f729dce2dad89cd4b0a7a6e2e25e9f6e3c27a1bb74"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split303/validation/expression.npz",
+    "bytes": 66903934,
+    "sha256": "c7269d44bd7cb47cedfaef32aeebfe6251845e7b506cef7e7da96ab677ceabbc"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split303/validation/metadata.tsv",
+    "bytes": 714301,
+    "sha256": "05aace7bcc34f34991dee7defb47747bb0a4a8a7f1842520a8da49fb83445ae3"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split303/controls_fit/expression.npz",
+    "bytes": 47789176,
+    "sha256": "32cce6eba3121ab3ab3695c88d034da37f18404a1685bff9e5d6af2d5e4fc068"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split303/controls_fit/metadata.tsv",
+    "bytes": 502953,
+    "sha256": "3975f97102ac43291840f65c14ee7a80090107cea572284022cca4fe3bc94faa"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split303/query/metadata.tsv",
+    "bytes": 5604,
+    "sha256": "85d89b13aab93ce2736acdb6487a24ac141711d94d7fad23b4ccd8480981ebb0"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split303/genes.tsv",
+    "bytes": 491017,
+    "sha256": "9cda231010bf9531aebdc85e38828ac617379720cc4d2bb695ae91524d6fd27b"
+  },
+  {
+    "role": "formal_input",
+    "path": "data/formal/S7/split303/target_prior_mapping.tsv",
+    "bytes": 8673,
+    "sha256": "8e53dba79a019b6fbf246d93c8d3036995bf0efcbc335fe1c2c3ae524236af29"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/CORUM.npz",
+    "bytes": 1391,
+    "sha256": "ae3e99e2075463e29eb4fff6f563486249feb62c8fbd3af8a1b0dac0a7c893fd"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/CORUM_metadata.npz",
+    "bytes": 9898,
+    "sha256": "d045a58a6803b9ef5d4882379807c77d2920821af032158531d16f9185e41f60"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/CollecTRI.npz",
+    "bytes": 2010,
+    "sha256": "7318a5e798332fbcd47fe516444191fec205e48f9a979e677dce9df561a4cf25"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/CollecTRI_metadata.npz",
+    "bytes": 29255,
+    "sha256": "0827d032d01212c39bf8b523a8590e58a73a9959bffd2a44cbb846f116cb5072"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/DepMap.npz",
+    "bytes": 376089,
+    "sha256": "975d1b782b4fa647cd98fc9749a052a76aa8f3b10b47d93447fcae4bb09afeb2"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/GO_BP.npz",
+    "bytes": 3453,
+    "sha256": "65948c2156bc048cb27e3ce8479993944ae51e2302b7ec29082c01b4c8402023"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/GO_BP_metadata.npz",
+    "bytes": 34576,
+    "sha256": "c871d876168f87da93fbd421a75da26db4b0e24729f4151850f628d22ece10d1"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/GO_CC.npz",
+    "bytes": 2360,
+    "sha256": "f2d1787aa679bf8302fac45f974f1a70cc0812734a1310a1fb6f3b292ae29446"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/GO_CC_metadata.npz",
+    "bytes": 8308,
+    "sha256": "d7e4c3b8bc7f174cd2938046c3fdc69be87be4c11a091a2c3decb35511db1c58"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/GO_MF.npz",
+    "bytes": 2187,
+    "sha256": "f841b7bd50b276cb55dc3377add0eff98d36d7347fb7bcb426ff501f7cf5eca9"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/GO_MF_metadata.npz",
+    "bytes": 14447,
+    "sha256": "9e7d77431c0ada7c33c6cc747870b87a3bc42b78e02b9cafeffd424c51e8e7d6"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/GenePT.npz",
+    "bytes": 476465,
+    "sha256": "7146d8b5a4bce28cad093b07877fc0176d89ab809d6b9138842ca518351486a2"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/HPA.npz",
+    "bytes": 13179,
+    "sha256": "a1338fa217a0c75cbb31a37fedfd3fae1ed8835766a2d93fdbfb6ac2505b6cc7"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/HPO.npz",
+    "bytes": 6823,
+    "sha256": "647c12d84f857031552009406f2737d09720e55207f8b0cce8a4b5c3ef8db213"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/HPO_metadata.npz",
+    "bytes": 33556,
+    "sha256": "f3b8c1158a48e97d01f2e8b63dcb4d12e9441a5c578633d265c43028bac4bac0"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/Reactome.npz",
+    "bytes": 3107,
+    "sha256": "ad9f43a39b0a301fe9a9f99e3239ae0ed1923f94414c8029853f1b8040443024"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/Reactome_metadata.npz",
+    "bytes": 15139,
+    "sha256": "2e9620811bd8a2cee6ab2bb9b4ab0e04a4f429ec00500d04a4c0d695e71a6704"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/STRING.npz",
+    "bytes": 114342,
+    "sha256": "8d4c1ba02e8639e935b8429f28724647b1201fc9e5628ca02077e532ad8e9005"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/WikiPathways.npz",
+    "bytes": 1750,
+    "sha256": "27dbd01e7ff825518ba162d3d19a72126803ea2a2ca8a2fa1636e3ed383fae86"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/WikiPathways_metadata.npz",
+    "bytes": 33905,
+    "sha256": "321917763347f5ea3f096eb598ac46d5f81cc9660383384918c00f7e34af937a"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S3/targets.npy",
+    "bytes": 5708,
+    "sha256": "0cfe6327862ad9bccae6524be87c8b7cd9e61a6937d344329cbfbb6014440b63"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/CORUM.npz",
+    "bytes": 1282,
+    "sha256": "9bebc6acb00bf32c866ee5428230bdc72a03f009d69deaee777fb2c3113d5ff5"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/CORUM_metadata.npz",
+    "bytes": 9898,
+    "sha256": "d045a58a6803b9ef5d4882379807c77d2920821af032158531d16f9185e41f60"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/CollecTRI.npz",
+    "bytes": 5256,
+    "sha256": "4a8eca3dd0dad3f4a199f9bb701cef1c7d53c4a1e883f4ece61f3d7dc51e933c"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/CollecTRI_metadata.npz",
+    "bytes": 29255,
+    "sha256": "0827d032d01212c39bf8b523a8590e58a73a9959bffd2a44cbb846f116cb5072"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/DepMap.npz",
+    "bytes": 383652,
+    "sha256": "326107569de782d325ebcea9dbd8656e2fb16b3de7cf7467f0d9c59a5835337c"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/GO_BP.npz",
+    "bytes": 4198,
+    "sha256": "61d2aa8e80a45683aa4334a7bd8ce3c9298bfdfafdffcab46fb782ae068abd13"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/GO_BP_metadata.npz",
+    "bytes": 34576,
+    "sha256": "c871d876168f87da93fbd421a75da26db4b0e24729f4151850f628d22ece10d1"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/GO_CC.npz",
+    "bytes": 2209,
+    "sha256": "181a5f90185966e83f8dfc07c539a6f5ab0a1bbe3468f91d7c30a2c59cc320c0"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/GO_CC_metadata.npz",
+    "bytes": 8308,
+    "sha256": "d7e4c3b8bc7f174cd2938046c3fdc69be87be4c11a091a2c3decb35511db1c58"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/GO_MF.npz",
+    "bytes": 2407,
+    "sha256": "aacbfeb671c1d7dd96d76e86572f688380171357613e7c1b16a5bc5ec43ef312"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/GO_MF_metadata.npz",
+    "bytes": 14447,
+    "sha256": "9e7d77431c0ada7c33c6cc747870b87a3bc42b78e02b9cafeffd424c51e8e7d6"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/GenePT.npz",
+    "bytes": 480818,
+    "sha256": "bd84a248ef0d6e4bbe9e85f12bdbfe75a7814cd3da5743f50acc300424af7c7d"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/HPA.npz",
+    "bytes": 11955,
+    "sha256": "7cf0cadd67ac2b074cd2591656164168bbb3f1913a7a942cceb8222bef45886a"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/HPO.npz",
+    "bytes": 5694,
+    "sha256": "e5546ba50719c37efbf5faa74820bc74a175648cd116fbedcdf9042a4b21fc2e"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/HPO_metadata.npz",
+    "bytes": 33556,
+    "sha256": "f3b8c1158a48e97d01f2e8b63dcb4d12e9441a5c578633d265c43028bac4bac0"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/Reactome.npz",
+    "bytes": 3092,
+    "sha256": "7852d653cdb5204881ce682b498ab19e74dbe5eb98eb86b3fa81085e4e87a506"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/Reactome_metadata.npz",
+    "bytes": 15139,
+    "sha256": "2e9620811bd8a2cee6ab2bb9b4ab0e04a4f429ec00500d04a4c0d695e71a6704"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/STRING.npz",
+    "bytes": 115583,
+    "sha256": "1ae51d421fb9363aed82e089a72823c31724d74e13d5ae6c2ca8927dfa715b19"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/WikiPathways.npz",
+    "bytes": 2546,
+    "sha256": "0a8ec5e2f1dc3e03ce046048aa6dffb458b79dfb65e611dc18052deee33a328c"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/WikiPathways_metadata.npz",
+    "bytes": 33905,
+    "sha256": "321917763347f5ea3f096eb598ac46d5f81cc9660383384918c00f7e34af937a"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S4/targets.npy",
+    "bytes": 5768,
+    "sha256": "af2bd7909bb7d1d4b6849be81342f32191c6cef5a1984da4bd30f26c9a85c9cf"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/CORUM.npz",
+    "bytes": 1267,
+    "sha256": "808d0af72d8ab7ac927bf70b3752d9a69a3518cb45d2e4016da5c2fae8e0ebf9"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/CORUM_metadata.npz",
+    "bytes": 9898,
+    "sha256": "d045a58a6803b9ef5d4882379807c77d2920821af032158531d16f9185e41f60"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/CollecTRI.npz",
+    "bytes": 1778,
+    "sha256": "97c24db1460dc0b1d42f794ac4f7d721c69e12b20f1b72a3ae04eb9c25104767"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/CollecTRI_metadata.npz",
+    "bytes": 29255,
+    "sha256": "0827d032d01212c39bf8b523a8590e58a73a9959bffd2a44cbb846f116cb5072"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/DepMap.npz",
+    "bytes": 345247,
+    "sha256": "f00ec0ac02f262acecddbbba29574eaae2b94b33e95563cc587b17bb64f7e267"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/GO_BP.npz",
+    "bytes": 2617,
+    "sha256": "3461619d52f0ebf537ba6ef4ff3f73809b6dcbc84b7ace719d2c216962efc2bf"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/GO_BP_metadata.npz",
+    "bytes": 34576,
+    "sha256": "c871d876168f87da93fbd421a75da26db4b0e24729f4151850f628d22ece10d1"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/GO_CC.npz",
+    "bytes": 1999,
+    "sha256": "cbee39a703aa8785cc89d800c361ccac299dd59d4bbd152dd01b9bd134c58207"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/GO_CC_metadata.npz",
+    "bytes": 8308,
+    "sha256": "d7e4c3b8bc7f174cd2938046c3fdc69be87be4c11a091a2c3decb35511db1c58"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/GO_MF.npz",
+    "bytes": 1870,
+    "sha256": "a904c9a8b485c4821fb133810a23ad8318be0be622f1eb99e6311ab87967837d"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/GO_MF_metadata.npz",
+    "bytes": 14447,
+    "sha256": "9e7d77431c0ada7c33c6cc747870b87a3bc42b78e02b9cafeffd424c51e8e7d6"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/GenePT.npz",
+    "bytes": 450261,
+    "sha256": "9523087c4324ddd8ced9972db11c8a1ad667ab904945a8f15d9ba8d32f4c1709"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/HPA.npz",
+    "bytes": 13210,
+    "sha256": "53458c39b0ca76de983a9306b736b79cf2c9ba50764c316a2b4aac05fbf7236f"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/HPO.npz",
+    "bytes": 5494,
+    "sha256": "eaeb0c26c847132a6a39d06d5866c2b95979098a91ea1c5e6a079499ab452867"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/HPO_metadata.npz",
+    "bytes": 33556,
+    "sha256": "f3b8c1158a48e97d01f2e8b63dcb4d12e9441a5c578633d265c43028bac4bac0"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/Reactome.npz",
+    "bytes": 2565,
+    "sha256": "20b01b8b4a29ffb394878d13b21279c08af1d1362c449265d2afce0860d3748c"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/Reactome_metadata.npz",
+    "bytes": 15139,
+    "sha256": "2e9620811bd8a2cee6ab2bb9b4ab0e04a4f429ec00500d04a4c0d695e71a6704"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/STRING.npz",
+    "bytes": 107153,
+    "sha256": "46d661c53b4b04ab7cc058e2366c265cc16a8342f530b93aa506b25eaa3c98d1"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/WikiPathways.npz",
+    "bytes": 1535,
+    "sha256": "fcd555d56d0b78636c64e6ea378ba66cd802f2c917c7da2907d802a084f13149"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/WikiPathways_metadata.npz",
+    "bytes": 33905,
+    "sha256": "321917763347f5ea3f096eb598ac46d5f81cc9660383384918c00f7e34af937a"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S5/targets.npy",
+    "bytes": 5348,
+    "sha256": "ffd68a4521b907b6068578e752741198fb9bb07f2d8ef1d80aca22c59389dc3e"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/CORUM.npz",
+    "bytes": 1208,
+    "sha256": "de49adf247e37794f97f247190932a753edecc9d5c0fd24db911f21a1b0d2917"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/CORUM_metadata.npz",
+    "bytes": 9898,
+    "sha256": "d045a58a6803b9ef5d4882379807c77d2920821af032158531d16f9185e41f60"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/CollecTRI.npz",
+    "bytes": 6498,
+    "sha256": "dd2b8114fb4a2b06a6f42442e01885949e3e17cd40f0122817dbf3e969db3604"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/CollecTRI_metadata.npz",
+    "bytes": 29255,
+    "sha256": "0827d032d01212c39bf8b523a8590e58a73a9959bffd2a44cbb846f116cb5072"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/DepMap.npz",
+    "bytes": 333813,
+    "sha256": "6433e03f9a0964a95dffb2e29a5eb830743b02b65a6dab1e13297600f80d9ba8"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/GO_BP.npz",
+    "bytes": 3446,
+    "sha256": "8ae644e61b2628d657b4d6e7b28d3f1a671707beb6a47e8251c96937de045241"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/GO_BP_metadata.npz",
+    "bytes": 34576,
+    "sha256": "c871d876168f87da93fbd421a75da26db4b0e24729f4151850f628d22ece10d1"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/GO_CC.npz",
+    "bytes": 1759,
+    "sha256": "ad74bb6dd6784a9b7c0594c7ae2c20c81f75b6249eaa5c3331417f77529ff101"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/GO_CC_metadata.npz",
+    "bytes": 8308,
+    "sha256": "d7e4c3b8bc7f174cd2938046c3fdc69be87be4c11a091a2c3decb35511db1c58"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/GO_MF.npz",
+    "bytes": 2004,
+    "sha256": "d26cb3cb043f8ea4fd38c8303cf88f88adafe98c41789581c0f96562f3d49d80"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/GO_MF_metadata.npz",
+    "bytes": 14447,
+    "sha256": "9e7d77431c0ada7c33c6cc747870b87a3bc42b78e02b9cafeffd424c51e8e7d6"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/GenePT.npz",
+    "bytes": 434670,
+    "sha256": "5c65bb603db62cc6855414b161cd3f8af4ab67a4003b5c558ec93d86b3a62ee4"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/HPA.npz",
+    "bytes": 10575,
+    "sha256": "d4217d0ad90184ead3a5154736ee6666cc5e1d3e074d0e2ed5ac61c8ad3904f5"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/HPO.npz",
+    "bytes": 5195,
+    "sha256": "c81713e1c1206bb3edd035f4236b36edf750e973f09fa11af80a26697c8e27cc"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/HPO_metadata.npz",
+    "bytes": 33556,
+    "sha256": "f3b8c1158a48e97d01f2e8b63dcb4d12e9441a5c578633d265c43028bac4bac0"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/Reactome.npz",
+    "bytes": 2670,
+    "sha256": "4631ccd67226679fd64144c3d7cc81b068c447ee2287e2029c72102489bc77cb"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/Reactome_metadata.npz",
+    "bytes": 15139,
+    "sha256": "2e9620811bd8a2cee6ab2bb9b4ab0e04a4f429ec00500d04a4c0d695e71a6704"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/STRING.npz",
+    "bytes": 103428,
+    "sha256": "f30f1bf16604606536790f94542f7944145d9e2b53d033c54a9c3e378564ec08"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/WikiPathways.npz",
+    "bytes": 2272,
+    "sha256": "9f425be43968834483eacb096f9fecf03db4b8f5cf3aeb568e06498ffe6e5ab9"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/WikiPathways_metadata.npz",
+    "bytes": 33905,
+    "sha256": "321917763347f5ea3f096eb598ac46d5f81cc9660383384918c00f7e34af937a"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S6/targets.npy",
+    "bytes": 5168,
+    "sha256": "2f5de10dc5a013ba415edf2426827590d6408b2cb2c8f2fb6d21dcd59830f336"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/CORUM.npz",
+    "bytes": 1883,
+    "sha256": "5e3e1de167b36e1abd90852caf4b2ceed61d873440aea4ad957f79f40a2662d4"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/CORUM_metadata.npz",
+    "bytes": 9898,
+    "sha256": "d045a58a6803b9ef5d4882379807c77d2920821af032158531d16f9185e41f60"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/CollecTRI.npz",
+    "bytes": 12934,
+    "sha256": "c7a7c238bf7efad8bd7f9065e898913986f36d26f15c88118e8db005b482b187"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/CollecTRI_metadata.npz",
+    "bytes": 29255,
+    "sha256": "0827d032d01212c39bf8b523a8590e58a73a9959bffd2a44cbb846f116cb5072"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/DepMap.npz",
+    "bytes": 816714,
+    "sha256": "0df1c96b9bbe278d23d02a18fce5c1249b3209fe6b09d7712d199206688d0e85"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/GO_BP.npz",
+    "bytes": 7338,
+    "sha256": "5ab5c2f24f44b64e3aa1613f2a87d32e0bec13f00c5a530c892e35f832b2fe64"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/GO_BP_metadata.npz",
+    "bytes": 34576,
+    "sha256": "c871d876168f87da93fbd421a75da26db4b0e24729f4151850f628d22ece10d1"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/GO_CC.npz",
+    "bytes": 3635,
+    "sha256": "2526fedfd7beee1a2555b1a5ee8ec4354e0fabbe5e75c2329f355c4e10c2c6c0"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/GO_CC_metadata.npz",
+    "bytes": 8308,
+    "sha256": "d7e4c3b8bc7f174cd2938046c3fdc69be87be4c11a091a2c3decb35511db1c58"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/GO_MF.npz",
+    "bytes": 3718,
+    "sha256": "fe7beece175e58f8c31fcba5b80b6dd6fd03ddc9a5bc87a470e66cd3bd0d4b55"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/GO_MF_metadata.npz",
+    "bytes": 14447,
+    "sha256": "9e7d77431c0ada7c33c6cc747870b87a3bc42b78e02b9cafeffd424c51e8e7d6"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/GenePT.npz",
+    "bytes": 1132827,
+    "sha256": "c9bc0188d9c0f2714c3fafc1ea60fe6a1632bfc87030c596aa92cc8ed99c351b"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/HPA.npz",
+    "bytes": 31742,
+    "sha256": "087c277bab20d0467912a9482f08acdcd12348032e9c5975e9f658d347a6b5cb"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/HPO.npz",
+    "bytes": 12720,
+    "sha256": "6a69cb3c12eb3701d592d7f8054e36d4feb6fdcecfc0dbf7c404abad80771be3"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/HPO_metadata.npz",
+    "bytes": 33556,
+    "sha256": "f3b8c1158a48e97d01f2e8b63dcb4d12e9441a5c578633d265c43028bac4bac0"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/Reactome.npz",
+    "bytes": 6326,
+    "sha256": "7ec76c2d305b837a2eaf1edb5ec4d5e7a65f3adf463aed5793b3ab22dae64802"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/Reactome_metadata.npz",
+    "bytes": 15139,
+    "sha256": "2e9620811bd8a2cee6ab2bb9b4ab0e04a4f429ec00500d04a4c0d695e71a6704"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/STRING.npz",
+    "bytes": 256378,
+    "sha256": "6a5aa62619d120172807f079d4d7e18fc999b0c5f2e25cbe9aa0818e0678d5d7"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/WikiPathways.npz",
+    "bytes": 3926,
+    "sha256": "137bfe1dd3ecf83ac567b2e2629fb4a48c5bbc59074494285354ca58817685b5"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/WikiPathways_metadata.npz",
+    "bytes": 33905,
+    "sha256": "321917763347f5ea3f096eb598ac46d5f81cc9660383384918c00f7e34af937a"
+  },
+  {
+    "role": "prepared_prior",
+    "path": "S7/targets.npy",
+    "bytes": 13448,
+    "sha256": "6317da664202b7f84225da3a68aa8e5b344b0744532cdfc7b89b279e6f57ec7d"
+  }
+]

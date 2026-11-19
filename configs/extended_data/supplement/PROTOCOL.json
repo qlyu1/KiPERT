@@ -1,0 +1,33 @@
+{
+  "status": "FROZEN_BEFORE_NEW_SUPPLEMENTAL_RUNS",
+  "date": "2026-11-17",
+  "scope": "Retrospective controlled ablations; original results and model defaults remain unchanged",
+  "output_root": "@STUDY@/kipert_supplement_20261117",
+  "single": {
+    "datasets": ["S3","S4","S5","S6","S7"], "splits": [101,202,303],
+    "priority": "Rescore existing aligned_raw and uniform_raw using manuscript query-target-excluded PDS, Davis-Goadrich AUPRC and cell-weighted shared-response Pearson",
+    "variants": ["full12_beta0", "full12_beta025", "full12_beta05", "full12_beta075", "full12_beta1", "12_leave_one_out_beta05", "12_single_view", "DepMap_GenePT_STRING_beta05"],
+    "selection": "Each variant uses original validation mean(L2,cosine PDS) excluding full target panel; ties by structural Spearman, specific Pearson, smaller RMSE, candidate ID; alpha grid 0.01,0.1,1; refit fit+validation. Also evaluate fixed original full12 alpha.",
+    "primary": "pds_query_cosine"
+  },
+  "double": {
+    "datasets": ["D1","D2","D3","D4"], "folds": [0,1,2,3,4], "arms": ["seen0","seen1","seen2"],
+    "variants": ["full12_beta0", "full12_beta025", "full12_beta05", "full12_beta075", "full12_beta1", "12_leave_one_out_beta05"],
+    "selection": "Freeze original pair structure; same seen0 validation alpha grid 0.01,0.1,1 frozen across arms; no validation refit. Fixed full12-alpha sensitivity also retained.",
+    "primary": "opposite20"
+  },
+  "transfer": {
+    "contexts": ["k562","hepg2","rpe1","jurkat"], "conditions": 3712, "genes": 6642,
+    "factorial": ["uniform_identity","weighted_identity","uniform_OT","weighted_OT"],
+    "eta": [0,0.25,0.5,0.75,1],
+    "prior_ablation": "12 leave-one-out; recompute rank512 plus diagonal remainder and source posterior variances; freeze source temperature, source effects and OT maps",
+    "fairness": "Identity may reselect temperature by original source-only leave-one-context-out validation and original candidate budget; target responses are scoring-only",
+    "primary": ["pds_l1_exclude_target","mse_delta"],
+    "secondary": ["pearson_delta","direction_true_de","lfc_spearman_true_de","de_overlap_N","auprc"],
+    "evaluation": "Native and matched 500-control-cell shift/clipping adapter; identical controls and DE definitions. Resource-dependent CPU implementation must pass frozen-output parity before use. Any incomplete DE parity is explicitly labelled and cannot be substituted for manuscript scores."
+  },
+  "invariants": ["No test-based default or hyperparameter selection", "Active view weights sum to one with V active views", "Full original target bank and alignment exclusion mask fixed", "Do not discard targets with absent prior coverage", "Preserve original input/output files", "Validate full-model replay against frozen predictions", "Save sealed predictions before evaluation"],
+  "statistics": {"seed": 20261117, "bootstrap": 2000, "interval": "Pointwise percentile paired cluster bootstrap conditional on frozen predictions", "single_cluster": "target across split/context", "double_cluster": "pair across fold/context; shared constituent dependence not eliminated", "transfer_cluster": "perturbation across fixed four contexts; macro context weights equal", "multiplicity": "No unadjusted confirmatory p-values; effects and pointwise intervals reported"},
+  "resources": {"threads": 1,"sequential":true,"resume":true},
+  "reporting": "Report improvements, negligible effects and regressions for all specified datasets and endpoints. Manuscript recommendations follow completed results."
+}

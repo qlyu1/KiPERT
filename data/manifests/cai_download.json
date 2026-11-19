@@ -1,0 +1,53 @@
+{
+  "status": "complete",
+  "files": [
+    {
+      "file": "day14_features.tsv.gz",
+      "size": 164918,
+      "md5": "5f7cf1f4fe527750a568a96f4f69f3d9",
+      "verified": true
+    },
+    {
+      "file": "day7_barcodes.tsv.gz",
+      "size": 54258,
+      "md5": "9ff7ffdbf0a5d2574a30d88049904a1a",
+      "verified": true
+    },
+    {
+      "file": "day14_metadata.csv",
+      "size": 12235163,
+      "md5": "b56d0ad958ef9a264783ad3c395d4408",
+      "verified": true
+    },
+    {
+      "file": "day14_barcodes.tsv.gz",
+      "size": 186886,
+      "md5": "a99d6d558d32b99ec1b3d6ceafa6571c",
+      "verified": true
+    },
+    {
+      "file": "day7_features.tsv.gz",
+      "size": 71629,
+      "md5": "5f3f5dcbd925959d64931dc05dfabe76",
+      "verified": true
+    },
+    {
+      "file": "day7_metadata.csv",
+      "size": 3285189,
+      "md5": "47be9e3f0476d8393d08e213221aeff0",
+      "verified": true
+    },
+    {
+      "file": "day14_matrix.mtx.gz",
+      "size": 824261016,
+      "md5": "92a54ce516e5a044acbef7f27186ea2e",
+      "verified": true
+    },
+    {
+      "file": "day7_matrix.mtx.gz",
+      "size": 248987456,
+      "md5": "da60ae48b694b39b6f9fe87b1c478b6d",
+      "verified": true
+    }
+  ]
+}

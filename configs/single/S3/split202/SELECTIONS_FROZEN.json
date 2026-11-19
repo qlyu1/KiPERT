@@ -1,0 +1,9 @@
+{
+  "baseline": "baseline",
+  "safe_selected": "baseline",
+  "uniform_raw": "uniform_raw_a0.1_g1",
+  "uniform_direction": "uniform_direction_a0.1_g2",
+  "aligned_raw": "aligned_raw_a0.1_g1",
+  "aligned_direction": "aligned_direction_a1_g2",
+  "aligned_neighbors": "aligned_neighbors_k3"
+}

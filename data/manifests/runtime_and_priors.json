@@ -1,0 +1,27 @@
+{
+  "python": "3.10.21 (main, Sep  1 2026, 14:16:49) [Clang 22.1.3 ]",
+  "numpy": "1.26.4",
+  "pandas": "2.2.3",
+  "scipy": "1.14.1",
+  "matplotlib": "3.9.2",
+  "prior_sha256": {
+    "CORUM.npz": "b5251f4bd59bc907f44fd3293ccb4588c39f164b5536754440b8b698382f2f49",
+    "CollecTRI.npz": "1a7b5b6943e2d63edda70eb0b38a7e00c86a2ccdc4f90e96cfc6fbec872c1a12",
+    "DepMap.npz": "9e717f0b6dc649bf4fee85bb5b26e3b51cb53e6fbe2ae64779e8afbf74fb265b",
+    "GO_BP.npz": "23843610a2932fd2d2bc68314e70174f3e51b16a411422318afcd69aa7e6aa12",
+    "GO_CC.npz": "f0ac04ac1ab730c5618aba19ca56cb5d781a887901c18efc0dac6ac902546886",
+    "GO_CC_sizes.npy": "d9a2dd5ec9d7f890b423fdc76a0124a87cfb6239a88836f69c4f01ba57aab0f7",
+    "GO_MF.npz": "046951d833c53a25f83f921e777e840441f45e90912831221b36e78c9ee7d75a",
+    "GO_MF_sizes.npy": "0a4f72969d4f3e6cc66fd5f627027bb9ec3a8b3d03afa78427a77f31a21481f1",
+    "GenePT.npz": "f5faa710f418b48a0e94b2612593553fdcf8fe51e297a59c4b6394d9c9d03131",
+    "HPA.npz": "cbf5c378e1f132696d681399f371f1d625c705307815729e7f3343f91e1b28c6",
+    "HPO.npz": "99a4c3347f0089aaf8ee89b05383c2c1d4f30178c2599010f938d7d8411be276",
+    "HPO_sizes.npy": "1cdf054432e62c81c12e8d129a795b3da61bb91cab2ec6e50f871f4d44ce4906",
+    "Reactome.npz": "0f33fe8a1cfe17c12c3ec97e3f5eab13c9490ed1cd5a963ce6eb445fde3179a4",
+    "STRING.npz": "d782294ecf18adb236d4bd7c4dea795df57267f394a03a96ab3f680bcf1de3bc",
+    "WikiPathways.npz": "6779ce7ef71f570c4606e405246ba95e57b449c31a24d37a5f7b86a785e73c70",
+    "WikiPathways_sizes.npy": "3ba060cba53bbd288a1a609f3107d955ecc7a661d816507d9d04736fed63a81b",
+    "metadata.json": "0765abedb1d275b2fed9edc20356ab59dd9cd57691f995b9c549154e0f2e2972",
+    "targets.npy": "a4c82116dcf9dd772ba30844759d6aa9eae902aef88f54040d6d944e291dadf9"
+  }
+}

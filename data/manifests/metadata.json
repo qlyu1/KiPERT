@@ -1,0 +1,39 @@
+{
+  "views": [
+    "DepMap",
+    "GenePT",
+    "STRING",
+    "Reactome",
+    "GO_BP",
+    "CORUM",
+    "CollecTRI",
+    "HPA",
+    "GO_MF",
+    "GO_CC",
+    "HPO",
+    "WikiPathways"
+  ],
+  "sparse_views": [
+    "Reactome",
+    "GO_BP",
+    "CORUM",
+    "CollecTRI",
+    "GO_MF",
+    "GO_CC",
+    "HPO",
+    "WikiPathways"
+  ],
+  "dense_views": [
+    "DepMap",
+    "GenePT",
+    "STRING",
+    "HPA"
+  ],
+  "sizes_views": [
+    "GO_MF",
+    "GO_CC",
+    "HPO",
+    "WikiPathways"
+  ],
+  "source_bank": "@STUDY@/uc_cross_context_transfer/experiments/cai_fig2ef_20261112/src/run.py"
+}

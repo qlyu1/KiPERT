@@ -1,0 +1,10 @@
+{
+  "name": "JOINT_LINEAR_CALIBRATED",
+  "node_mode": "linear",
+  "lambda_pair": 1.0,
+  "lambda_int": 0.0,
+  "pair_intercept": true,
+  "response": "full",
+  "alpha": 1.0,
+  "id": "JOINT_LINEAR_CALIBRATED_A1"
+}

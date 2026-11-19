@@ -1,0 +1,65 @@
+[
+  {
+    "id": "507958b9-0257-435d-990e-7e1b93796e37",
+    "key": "AdamsonWeissman2016_GSM2406681_10X010.h5ad",
+    "size": 471286951,
+    "checksum": "md5:2fa44ea61a8dd35742af618638ec65fc",
+    "links": {
+      "self": "https://zenodo.org/api/records/13350497/files/AdamsonWeissman2016_GSM2406681_10X010.h5ad/content"
+    }
+  },
+  {
+    "id": "bf4e7acc-be66-45aa-a8d7-a75c5f54f565",
+    "key": "FrangiehIzar2021_RNA.h5ad",
+    "size": 1458928348,
+    "checksum": "md5:dc438f53c476a3dd562898654d48ed15",
+    "links": {
+      "self": "https://zenodo.org/api/records/13350497/files/FrangiehIzar2021_RNA.h5ad/content"
+    }
+  },
+  {
+    "id": "cd438daf-c3ab-4cb6-9a87-8df87ebc0ba4",
+    "key": "ReplogleWeissman2022_K562_gwps.h5ad",
+    "size": 8805466154,
+    "checksum": "md5:13db594f8f1d2ccb88fec44a13e414dc",
+    "links": {
+      "self": "https://zenodo.org/api/records/13350497/files/ReplogleWeissman2022_K562_gwps.h5ad/content"
+    }
+  },
+  {
+    "id": "c8e65bb9-e5cf-4c68-9a1d-76cf1fe100e1",
+    "key": "NormanWeissman2019_filtered.h5ad",
+    "size": 698680199,
+    "checksum": "md5:c870e6967d91c017d9da827bab183cd6",
+    "links": {
+      "self": "https://zenodo.org/api/records/13350497/files/NormanWeissman2019_filtered.h5ad/content"
+    }
+  },
+  {
+    "id": "c1c1da58-da8f-469b-b0c3-ef6e823d297e",
+    "key": "ReplogleWeissman2022_rpe1.h5ad",
+    "size": 1236886900,
+    "checksum": "md5:cc7f1ec50aeb3a3e1b4a6cfa713d80fa",
+    "links": {
+      "self": "https://zenodo.org/api/records/13350497/files/ReplogleWeissman2022_rpe1.h5ad/content"
+    }
+  },
+  {
+    "id": "02f56b96-1f39-4cee-8cdd-dfcb33d6c881",
+    "key": "TianKampmann2021_CRISPRa.h5ad",
+    "size": 154788473,
+    "checksum": "md5:67a9b324ce46b74a8ca09370de45ded6",
+    "links": {
+      "self": "https://zenodo.org/api/records/13350497/files/TianKampmann2021_CRISPRa.h5ad/content"
+    }
+  },
+  {
+    "id": "eb315560-f02d-4705-aa19-77fdcad2756d",
+    "key": "TianKampmann2021_CRISPRi.h5ad",
+    "size": 289389479,
+    "checksum": "md5:70d260cf5587fc09d759b9f3e32785c6",
+    "links": {
+      "self": "https://zenodo.org/api/records/13350497/files/TianKampmann2021_CRISPRi.h5ad/content"
+    }
+  }
+]

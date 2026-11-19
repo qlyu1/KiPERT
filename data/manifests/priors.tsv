@@ -1,0 +1,13 @@
+view	representation	training_fold_normalization	provider
+DepMap	genetic dependency	training-covered z-score and row L2	https://depmap.org/portal/
+GenePT	gene representation	training-covered z-score and row L2	https://github.com/yiqunchen/GenePT
+STRING	protein-network embedding	training-covered z-score and row L2	https://string-db.org/
+Reactome	pathway membership	inverse square-root membership frequency and row L2	https://reactome.org/
+GO_BP	biological process	inverse square-root membership frequency and row L2	https://geneontology.org/
+CORUM	protein complex membership	inverse square-root membership frequency and row L2	https://mips.helmholtz-muenchen.de/corum/
+CollecTRI	regulatory membership	inverse square-root membership frequency and row L2	https://github.com/saezlab/CollecTRI
+HPA	protein expression	training-covered z-score and row L2	https://www.proteinatlas.org/
+GO_MF	molecular function	inverse square-root membership frequency and row L2	https://geneontology.org/
+GO_CC	cellular component	inverse square-root membership frequency and row L2	https://geneontology.org/
+HPO	phenotype membership	inverse square-root membership frequency and row L2	https://hpo.jax.org/
+WikiPathways	pathway membership	inverse square-root membership frequency and row L2	https://www.wikipathways.org/
