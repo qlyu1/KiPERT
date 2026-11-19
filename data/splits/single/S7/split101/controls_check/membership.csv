@@ -1,0 +1,4 @@
+target,context,n_rows
+control,stimulus=Co-culture,659
+control,stimulus=Control,438
+control,stimulus=IFNγ,695
