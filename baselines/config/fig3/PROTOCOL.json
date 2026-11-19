@@ -1,0 +1,51 @@
+{
+  "id": "SEEN012_V1",
+  "created": "2026-10-05",
+  "datasets": [
+    "D1",
+    "D2",
+    "D3",
+    "D4"
+  ],
+  "arms": [
+    "seen0",
+    "seen1",
+    "seen2"
+  ],
+  "seen1": "Only L-side singleton targets supplied; exactly one fit per split/seed. No A/B two-direction runs.",
+  "split_seeds": [
+    101,
+    211,
+    307,
+    401,
+    503
+  ],
+  "model_seeds": [
+    17,
+    29,
+    43
+  ],
+  "models": [
+    "uc",
+    "gears",
+    "scouter",
+    "txpert",
+    "stamp",
+    "gperturb"
+  ],
+  "tuning": "seen0 seed17 only; same selected learning rate and update count for every other arm/seed; no validation refit",
+  "training": "cell methods: condition-balanced replacement sampling, fixed arity/control mass and draws per virtual epoch; all legal cells eligible",
+  "max_cell_steps_per_virtual_epoch": 128,
+  "max_pseudobulk_steps_per_virtual_epoch": 16,
+  "metrics": [
+    "macro_MSE",
+    "nMSE_vs_no_change",
+    "PCC_delta",
+    "specific_MRR",
+    "paired_gain01",
+    "paired_gain12"
+  ],
+  "scoring": "all registered predictions sealed before final scoring; no test-driven hyperparameters",
+  "checkpoint_retention": "all seed17 final checkpoints; other seeds retain predictions, hashes, configs and logs; intermediate candidates deleted only after sealing",
+  "scope": "retrospective public-data benchmark; historical results have been inspected; no old response-trained checkpoints reused"
+}

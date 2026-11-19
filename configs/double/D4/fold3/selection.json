@@ -1,0 +1,40 @@
+{
+  "candidates": [
+    {
+      "alpha": 0.01,
+      "pds": 0.5,
+      "mse": 0.0008084364367089896
+    },
+    {
+      "alpha": 0.1,
+      "pds": 0.5,
+      "mse": 0.0007908257215322593
+    },
+    {
+      "alpha": 1.0,
+      "pds": 0.5,
+      "mse": 0.00069336769733094
+    }
+  ],
+  "chosen": {
+    "alpha": 1.0,
+    "pds": 0.5,
+    "mse": 0.00069336769733094
+  },
+  "structure": {
+    "lambda_pair": 0.0,
+    "lambda_int": 0.0,
+    "pair_intercept": false
+  },
+  "source_old_config": {
+    "name": "JOINT_SHARED",
+    "node_mode": "hybrid",
+    "lambda_pair": 0.0,
+    "lambda_int": 0.0,
+    "pair_intercept": false,
+    "response": "full",
+    "alpha": 10.0,
+    "id": "JOINT_SHARED_A10"
+  },
+  "selection_scope": "seen0 validation only; frozen across arms; no validation refit"
+}

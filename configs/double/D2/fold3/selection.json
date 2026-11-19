@@ -1,0 +1,40 @@
+{
+  "candidates": [
+    {
+      "alpha": 0.01,
+      "pds": 0.5555555555555556,
+      "mse": 0.002233086055094056
+    },
+    {
+      "alpha": 0.1,
+      "pds": 0.5694444444444444,
+      "mse": 0.0022150971397235154
+    },
+    {
+      "alpha": 1.0,
+      "pds": 0.5555555555555556,
+      "mse": 0.0021735769504462057
+    }
+  ],
+  "chosen": {
+    "alpha": 0.1,
+    "pds": 0.5694444444444444,
+    "mse": 0.0022150971397235154
+  },
+  "structure": {
+    "lambda_pair": 1.0,
+    "lambda_int": 0.5,
+    "pair_intercept": true
+  },
+  "source_old_config": {
+    "name": "JOINT_TENSOR",
+    "node_mode": "hybrid",
+    "lambda_pair": 1.0,
+    "lambda_int": 0.5,
+    "pair_intercept": true,
+    "response": "full",
+    "alpha": 10.0,
+    "id": "JOINT_TENSOR_A10"
+  },
+  "selection_scope": "seen0 validation only; frozen across arms; no validation refit"
+}

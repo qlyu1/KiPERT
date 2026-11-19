@@ -1,0 +1,10 @@
+{
+  "name": "JOINT_DEG_SUBSPACE",
+  "node_mode": "hybrid",
+  "lambda_pair": 1.0,
+  "lambda_int": 0.5,
+  "pair_intercept": true,
+  "response": "deg_subspace",
+  "alpha": 10.0,
+  "id": "JOINT_DEG_SUBSPACE_A10"
+}

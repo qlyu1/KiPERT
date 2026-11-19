@@ -1,0 +1,68 @@
+{
+  "cardiac": {
+    "requested": [
+      "Tpm1",
+      "Tnnt2",
+      "Ryr2",
+      "Ttn",
+      "Ctnna3",
+      "Myl4",
+      "Myh6",
+      "Actc1"
+    ],
+    "used": [
+      "Tpm1",
+      "Tnnt2",
+      "Ryr2",
+      "Ttn",
+      "Ctnna3",
+      "Myl4",
+      "Myh6",
+      "Actc1"
+    ],
+    "missing": [],
+    "excluded_assayed": []
+  },
+  "fibrosis": {
+    "requested": [
+      "Fn1",
+      "Cthrc1",
+      "Tagln",
+      "Cilp",
+      "Col15a1",
+      "Postn",
+      "Col5a2"
+    ],
+    "used": [
+      "Fn1",
+      "Cthrc1",
+      "Tagln",
+      "Cilp",
+      "Col15a1",
+      "Postn",
+      "Col5a2"
+    ],
+    "missing": [],
+    "excluded_assayed": []
+  },
+  "injury": {
+    "requested": [
+      "Isg15",
+      "Ifit3",
+      "Ifi203",
+      "Cxcl1",
+      "Nfkb1",
+      "Ier3"
+    ],
+    "used": [
+      "Isg15",
+      "Ifit3",
+      "Ifi203",
+      "Cxcl1",
+      "Nfkb1",
+      "Ier3"
+    ],
+    "missing": [],
+    "excluded_assayed": []
+  }
+}

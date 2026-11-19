@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "candidate": 0,
+      "lr": 0.001,
+      "best_epoch": 5,
+      "best_validation_macro_rmse": 0.03021766224195592,
+      "selected_updates": 550
+    },
+    {
+      "candidate": 1,
+      "lr": 0.0003333333333333333,
+      "best_epoch": 11,
+      "best_validation_macro_rmse": 0.030533887461897193,
+      "selected_updates": 1210
+    },
+    {
+      "candidate": 2,
+      "lr": 0.003,
+      "best_epoch": 5,
+      "best_validation_macro_rmse": 0.03195542159788392,
+      "selected_updates": 550
+    }
+  ],
+  "chosen": {
+    "candidate": 0,
+    "lr": 0.001,
+    "best_epoch": 5,
+    "best_validation_macro_rmse": 0.03021766224195592,
+    "selected_updates": 550
+  }
+}

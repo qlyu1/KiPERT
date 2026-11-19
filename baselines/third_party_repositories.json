@@ -1,0 +1,50 @@
+[
+  {
+    "name": "GEARS",
+    "commit": null,
+    "license_files": [
+      "LICENSE"
+    ],
+    "source_included": false
+  },
+  {
+    "name": "RegFormer",
+    "commit": null,
+    "license_files": [
+      "LICENSE"
+    ],
+    "source_included": false
+  },
+  {
+    "name": "STAMP",
+    "commit": null,
+    "license_files": [
+      "LICENSE"
+    ],
+    "source_included": false
+  },
+  {
+    "name": "TxPert",
+    "commit": "08d82eea86746b044cf7531f4ec8c5f60e1cb73f",
+    "license_files": [
+      "license.pdf"
+    ],
+    "source_included": false
+  },
+  {
+    "name": "biolord",
+    "commit": "b7688790e49728d7f8d0906b980a629de484b19b",
+    "license_files": [
+      "LICENSE"
+    ],
+    "source_included": false
+  },
+  {
+    "name": "scouter",
+    "commit": "0cfddd000e19b72ff033ba67c8315f7bc3304932",
+    "license_files": [
+      "LICENSE"
+    ],
+    "source_included": false
+  }
+]

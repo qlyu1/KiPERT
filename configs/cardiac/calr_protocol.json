@@ -1,0 +1,32 @@
+{
+  "status": "FIXED_BEFORE_EXTRACTION",
+  "reference": "Calr only; published positive reference",
+  "genes": [
+    "Tpm1",
+    "Tnnt2",
+    "Ryr2",
+    "Ttn",
+    "Ctnna3",
+    "Myl4",
+    "Myh6",
+    "Actc1"
+  ],
+  "thresholds": [
+    5,
+    10
+  ],
+  "methods": [
+    "KiPERT_OT",
+    "source_mean",
+    "confidence_noOT"
+  ],
+  "seed": 2026111327,
+  "bootstrap_draws": 2000,
+  "task": "Known response preservation in sealed source-seen D14 leave-batch-out predictions",
+  "no_new_model": true,
+  "no_other_target_nominations": true,
+  "scale": "Original published normalized expression delta versus same-batch NT_73; cardiac score is fixed eight-gene arithmetic mean.",
+  "cell_intervals": "Percentile 95% cell bootstrap; sample target cells and NT cells independently within each batch, jointly over all eight genes; module interval averages gene values within the same draw.",
+  "inference": "Cell intervals describe conditional measurement precision. No gene-as-replicate or animal-level test; eight genes are a fixed correlated panel. Prediction inclusion in measurement CI is descriptive, not predictive calibration.",
+  "scope": "Retrospective recovery of an already known response, not unseen-target validation, new discovery, fate/yield prediction, or demonstration that OT outperforms source means."
+}

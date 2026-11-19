@@ -1,0 +1,40 @@
+{
+  "candidates": [
+    {
+      "alpha": 0.01,
+      "pds": 0.915865339191232,
+      "mse": 0.004359061961207784
+    },
+    {
+      "alpha": 0.1,
+      "pds": 0.9126039304610734,
+      "mse": 0.0041281896815157535
+    },
+    {
+      "alpha": 1.0,
+      "pds": 0.9003938728269085,
+      "mse": 0.003579476953492748
+    }
+  ],
+  "chosen": {
+    "alpha": 0.01,
+    "pds": 0.915865339191232,
+    "mse": 0.004359061961207784
+  },
+  "structure": {
+    "lambda_pair": 1.0,
+    "lambda_int": 0.5,
+    "pair_intercept": true
+  },
+  "source_old_config": {
+    "name": "JOINT_DEG_SUBSPACE",
+    "node_mode": "hybrid",
+    "lambda_pair": 1.0,
+    "lambda_int": 0.5,
+    "pair_intercept": true,
+    "response": "deg_subspace",
+    "alpha": 1.0,
+    "id": "JOINT_DEG_SUBSPACE_A1"
+  },
+  "selection_scope": "seen0 validation only; frozen across arms; no validation refit"
+}

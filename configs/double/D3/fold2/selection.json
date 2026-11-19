@@ -1,0 +1,40 @@
+{
+  "candidates": [
+    {
+      "alpha": 0.01,
+      "pds": 1.0,
+      "mse": 0.0025315899764902397
+    },
+    {
+      "alpha": 0.1,
+      "pds": 1.0,
+      "mse": 0.0025227512598700744
+    },
+    {
+      "alpha": 1.0,
+      "pds": 1.0,
+      "mse": 0.002469141900806158
+    }
+  ],
+  "chosen": {
+    "alpha": 1.0,
+    "pds": 1.0,
+    "mse": 0.002469141900806158
+  },
+  "structure": {
+    "lambda_pair": 1.0,
+    "lambda_int": 0.0,
+    "pair_intercept": true
+  },
+  "source_old_config": {
+    "name": "JOINT_LINEAR_CALIBRATED",
+    "node_mode": "linear",
+    "lambda_pair": 1.0,
+    "lambda_int": 0.0,
+    "pair_intercept": true,
+    "response": "full",
+    "alpha": 1.0,
+    "id": "JOINT_LINEAR_CALIBRATED_A1"
+  },
+  "selection_scope": "seen0 validation only; frozen across arms; no validation refit"
+}
